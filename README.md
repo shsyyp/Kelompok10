@@ -398,7 +398,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem absensi perpustakaan terdapat struktur database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
+![enter image description here](https://github.com/shsyyp/Kelompok10/blob/04ca50d07e6d494d456a708590c11b83b8a93bd6/gambar/erd.png)
 
 **Tabel Siswa**
 
