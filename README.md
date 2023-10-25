@@ -36,7 +36,6 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis we
 
 1.3    Akronim, singkatan, definisi
 ----------
-
 | Istilah | Definisi |
 | ------ | ------ |
 | SRS |Software Requirement Specification|
@@ -54,8 +53,8 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 
 1.5   Overview
 ----------
-
 Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, sistem interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
+
 
 **BAB II Gambaran umum**
 ----------
@@ -119,131 +118,129 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 | Edit | Digunakan untuk mengubah data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
-   
+
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
    
-**2.2.1 Kepala Desa Login**
+**2.2.1 Admin Registrasi**
 
-Use Case: Login
+Use Case: Registrasi
 
 Diagram : 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
 
-Deskripsi Singkat
-Kepala desa melukan login terlebih dahulu sebelum masuk ke tampilan home, apabila tidak dapat mengakses atau gagal kepala desa dapat meminta kepada admin desa untuk di dibuatkan akunnya.
-Deskripsi langkah-langkah
-1. Kepala desa melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
-
-Xref: Bagian 3.2.1, Login Kepala Desa
+Deskripsi Singkat:
+Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
+Deskripsi langkah-langkah:
+1. Admin melakukan registrasi dengan mengisi form registrasi
+2. Sistem melakukan validasi registrasi akun
+3. Jika berhasil, sistem akan mengarahkan ke halaman login
+4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi
    
+**2.2.2 Admin Login**
 
-**2.2.2 Kepala desa melihat laporan kependudukan**
-
-Use Case: View laporan kependudukan
+Use Case: Login
 
 Diagram: 
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
 
-Deskripsi Singkat
-Kepala desa dapat melihat laporan kependudukan secara bulanan di desa Lohbener.
-Deskripsi Langkah-langkah
-1. Kepala desa mengklik navbar laporan
-2. Kepala desa memilih combobox tersebut dan klik tombol cetak laporan
-3. Sistem akan menampilkan hasil laporan.
+Deskripsi Singkat:
+Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
+Deskripsi Langkah-langkah:
+1. Admin melakukan login dengan username dan password
+2. Sistem melakukan validasi akun
+3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
+4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password
 
-Xref: Bagian 3.2.2, View laporan kependudukan
+**2.2.3 Admin Kelola Data User**
 
-**2.2.3 Admin login**
-
-Use Case: Login
+Use Case: Kelola Data User
 
 Diagram :
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
 
-Deskripsi Singkat
-Admin melakukan login dengan memasukan username password.
-Deskripsi Langkah-langkah
-1. Admin melakukan login dengan username dan password
-2. Sistem melakukan validasi login
-3. Bila sukses sistem akan mengarahkan ke halaman beranda
-4. Bila gagal sistem akan menampilkan peringatan
-
-Xref: Bagian 3.2.3, Login admin
+Deskripsi Singkat:
+Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
+Deskripsi Langkah-langkah:
+1. Admin memilih data user
+2. Sistem menampilkan seluruh data user
+3. Admin mengelola data user dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data user
       
-**2.2.4 Admin input data kependudukan**
+**2.2.4 Admin Lihat Data Absen**
 
-Use Case: Input data kependudukan
+Use Case: Lihat Data Absen
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
       
 Deskripsi Singkat
-Admin melakukan input data kependudukan dan sistem menyimpan data pada database.
+Admin dapat melihat data absen yang telah di input oleh pengunjung.
 Deskripsi Langkah-langkah
-1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain.
-2. Admin mengklik tombol simpan.
-3. Sistem menyimpan data kependudukan.
-4. Bila data sudah ada sistem akan menampilkan peringatan
+1. Admin memilih menu absen
+2. Sistem menampilkan data absen
+3. Admin melihat data absen
 
-Xref: Bagian 3.2.4, Input data kependudukan
+**2.2.5 Admin Kelola Data Absen**
 
-**2.2.5 Admin melihat data kependudukan**
-
-Use Case: View data kependudukan
+Use Case: Kelola Data Absen
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
 
-Deskripsi Singkat
-Admin dapat melihat data kependudukan setelah di inputkan.
-Deskripsi Langkah-langkah
-1. Sistem akan menampilkan data kependudukan desa Lohbener.
-2. Admin melihat data dan dapat mengedit atau menghapusnya.
-3. Sistem menampilkan edit data kependudukan
-4. Admin  mengedit data kependudukan yang baru atau yang sudah ada
-5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan
+Deskripsi Singkat:
+Admin dapat mengelola data absen, seperti tambah, edit, dan hapus.
+Deskripsi Langkah-langkah:
+1. Admin memilih menu absen
+2. Sistem menampilkan seluruh data absen
+3. Admin mengelola data absen dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data absen
 
-Xref: Bagian 3.2.5, View data kependudukan
-   
-**2.2.6 Generate Laporan**
+**2.2.6 Pengunjung Registrasi**
 
-Use Case: Laporan
+Use Case: Registrasi
 
 Diagram:
 ![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
 
-Deskripsi Singkat
-Sistem akan mengirimkan data kependudukan dan yang lainnya ke fungsi laporan
-Deskripsi Langkah-langkah
-1. Sistem menampilkan laporan kependudukan
-2. Admin memilih combobox tersebut dan klik tombol cetak
-3. Sistem akan menampilkan hasil laporan.
-4. Admin mencetak laporan 
+Deskripsi Singkat:
+Pengunjung melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
+Deskripsi langkah-langkah:
+1. Pengunjung melakukan registrasi dengan mengisi form registrasi
+2. Sistem melakukan validasi registrasi akun
+3. Jika berhasil, sistem akan mengarahkan ke halaman login
+4. Jika gagal, sistem akan menampilkan peringatan dan pengunjung kembali diminta mengisi form registrasi 
 
-Xref: Bagian 3.2.6, Cetak Laporan
+**2.2.7 Pengunjung Login**
 
-**2.2.7 Admin mengelola user**
-
-Use Case: Mengelola user
+Use Case: Login
 
 Diagram:
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
 
-Deskripsi Singkat
-Sistem akan menampilkan form user dan admin dapat menambah user sesuai kebutuhan.
-Deskripsi Langkah-langkah
-1. Admin mengklik manajemen user, lalu memilih nik dan hak akses user kemudian klik tambah
-2. Sistem akan menyimpan data user ke database dan menampilkan data user yang dipilih.
-3. Admin bisa menghapus hak akses user.
+Deskripsi Singkat:
+Pengunjung melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
+Deskripsi Langkah-langkah:
+1. Pengunjung melakukan login dengan username dan password
+2. Sistem melakukan validasi akun
+3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
+4. Jika akun tidak valid, maka pengunjung diminta kembali menginputkan username dan password
 
-Xref: Bagian 3.2.7, Mengelola user
+**2.2.8 Pengunjung Mengisi Data Absen**
 
+Use Case: Mengisi Data Absen
 
+Diagram:
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+
+Deskripsi Singkat:
+Pengunjung menginputkan data absen yang diminta oleh sistem.
+Deskripsi Langkah-langkah:
+1. Pengunjung membuka halaman absen
+2. Sistem menampilkan form pada halaman absen
+3. Pengunjung mengisi form absen
+4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada halaman absen admin
 
 2.3   Spesifikasi Kebutuhan non-fungsional
 ----------
@@ -260,16 +257,8 @@ Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinte
 
 2.5   Batasan-batasan
 ----------
-- Perangkat lunak web hanya dijalankan di windows (7,8,10). 
+- Perangkat lunak web hanya dijalankan di windows (10 dan 11). 
 - Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
-
-2.6   Asumsi-asumsi
-----------
-Maksimal penginputan id atau memasukkan kode pada aplikasi ini adalah 9999, lebih dari itu program akan muncul peringatan"Anda telah melebihi batas maksimum".
-
-2.7   Kebutuhan Penyeimbang
-----------
-Tidak ada
 
 
 BAB III Requirement specification
