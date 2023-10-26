@@ -344,7 +344,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Xref | Bagian 2.2.6, Pengunjung Registrasi |
 | Trigger | Membuka website sistem absensi perpustakaan |
 | Precondition | Halaman registrasi |
-| Basic Path | 1. Pengunjung melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi |
+| Basic Path | 1. Pengunjung melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan pengunjung kembali diminta mengisi form registrasi |
 | Alternative | Tidak ada |
 | Post Condition | Pengunjung berhasil validasi akun dan dapat melakukan login |
 | Exception Push | Validasi akun gagal |
