@@ -121,14 +121,14 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/use-case.jpg)
    
 **2.2.1 Admin Registrasi**
 
 Use Case: Registrasi
 
 Diagram : 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-reg.jpg)
 
 Deskripsi Singkat:
 Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
@@ -143,7 +143,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-login.jpg)
 
 Deskripsi Singkat:
 Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
@@ -158,7 +158,7 @@ Deskripsi Langkah-langkah:
 Use Case: Kelola Data User
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-keldatus.jpg)
 
 Deskripsi Singkat:
 Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
@@ -173,7 +173,7 @@ Deskripsi Langkah-langkah:
 Use Case: Lihat Data Absen
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-lidab.jpg)
       
 Deskripsi Singkat
 Admin dapat melihat data absen yang telah di input oleh pengunjung.
@@ -187,7 +187,7 @@ Deskripsi Langkah-langkah
 Use Case: Kelola Data Absen
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-keldap.jpg)
 
 Deskripsi Singkat:
 Admin dapat mengelola data absen, seperti tambah, edit, dan hapus.
@@ -202,7 +202,7 @@ Deskripsi Langkah-langkah:
 Use Case: Registrasi
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
+![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-reg.jpg)
 
 Deskripsi Singkat:
 Pengunjung melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
@@ -217,7 +217,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-login.jpg)
 
 Deskripsi Singkat:
 Pengunjung melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
@@ -232,7 +232,7 @@ Deskripsi Langkah-langkah:
 Use Case: Mengisi Data Absen
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-input.jpg)
 
 Deskripsi Singkat:
 Pengunjung menginputkan data absen yang diminta oleh sistem.
