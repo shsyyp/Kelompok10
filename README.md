@@ -28,11 +28,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Absensi Perpustakaan SMA AL-Ittihad Rumbai". Dokumen ini dibangun untuk memudahkan Perpustakaan SMA Al-Ittihad untuk menginput absen menggunakan di sekolah tersebut. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun "Sistem Absensi Perpustakaan SMA AL-Ittihad Rumbai Berbasis Website ".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Absensi Perpustakaan SMA AL-Ittihad Rumbai". Dokumen ini dibangun untuk memudahkan Perpustakaan SMA Al-Ittihad untuk menginput absen di perpustakaan sekolah tersebut. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun "Sistem Absensi Perpustakaan SMA AL-Ittihad Rumbai Berbasis Website ".
 
 1.2   Lingkup
 ----------
-Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis website yang kami bangun untuk mempermudah staf perpustakaan dalam mengelola absensi yang ada di perpustakaan tersebut, serta memudahkan staf dalam melihat laporan karena sudah terhubung ke dalam database.
+Sistem absensi perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis website yang kami bangun untuk mempermudah staf perpustakaan dalam mengelola absensi yang ada di perpustakaan tersebut, serta memudahkan staf dalam melihat laporan karena sudah terhubung ke dalam database.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -265,101 +265,115 @@ BAB III Requirement specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan hak akses yang di berikan oleh admmin, login melalui aplikasi ini dengan mencantumkan username kemudian sistem akan mencocokkan username sekdes dan kepala desa lohbener. Setelah login berhasil kepala desa dapat melihat grafik kependudukan dan laporan desa Lohbener di aplikasi tersebut.
+Salah satu cara mengakses aplikasi ini yaitu dengan registrasi akun, kemudian admin maupun pengunjung login menggunakan username dan password yang telah didaftarkan ketika registrasi. Setelah berhasil login, pengunjung dapat mengisi absen dan admin dapat melihat absen yang telah diinputkan oleh pengunjung dan mengelola data di sistem tersebut.
       
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
       
-**3.2.1 Kepala desa Login**
+**3.2.1 Admin Registrasi**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.1, Login Kepala desa |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman login |
-| Basic Path | 1. Kepala desa mengisi form login dengan username dan password <br> 2.Kepala desa mengklik tombol login <br> 3. Sistem melakukan validasi login <br> 4. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 5. Bila gagal sistem akan menampilkan peringatan |
+| Nama Fungsi | Registrasi |
+| Xref | Bagian 2.2.1, Admin Registrasi |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman registrasi |
+| Basic Path | 1. Admin melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi |
 | Alternative | Tidak ada |
-| Post Condition | Kepala desa dapat login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbene |
-| Exception Push | Username dan password salah |
+| Post Condition | Admin berhasil validasi akun dan dapat melakukan login |
+| Exception Push | Validasi akun gagal |
       
-**3.2.2 Kepala desa melihat laporan kependudukan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | View laporan kependudukan |
-| Xref | Bagian 2.2.2, View laporan kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Membuka halaman grafik kependudukan |
-| Basic Path | 1. Kepala desa mengklik navbar laporan <br> 2. Sitem akan menampilkan combobox pilihan bulan dan tahun <br>3. Kepala desa memilih combobox tersebut dan klik tombol lihat <br> 4. Sistem akan menampilkan hasil laporan. |
-| Alternative | Tidak ada |
-| Post Condition | Kepala desa melihat laporan kependudukan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.3 Admin login**
+**3.2.2 Admin Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.3, Login admin |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman login admin |
-| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi login <br> 3. Bila sukses sistem akan mengarahkan ke halaman beranda <br> 4. Bila gagal sistem akan menampilkan peringatan |
+| Xref | Bagian 2.2.2, Admin Login |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman login |
+| Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil login dan mengakses aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
+| Post Condition | Admin berhasil login dan mengakses website |
 | Exception Push | Username dan password salah |
    
-**3.2.4 Admin input data kependudukan**
+**3.2.3 Admin Kelola Data User**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input data kependudukan |
-| Xref | Bagian 2.2.4, Input data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman utama admin |
-| Basic Path | 1. Admin melakukan input data kependudukan, pekerjaan, agama, pendidikan dan lain-lain <br> 2. Admin mengklik tombol simpan <br> 3. Sistem menyimpan data kependudukan <br> 4. Bila data sudah ada sistem akan menampilkan peringatan |
+| Nama Fungsi | Kelola Data User |
+| Xref | Bagian 2.2.3, Admin Kelola Data User |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih data user <br> 2. Sistem menampilkan seluruh data user <br> 3. Admin mengelola data user dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data user |
 | Alternative | Tidak ada |
-| Post Condition | Halaman form input data kependudukan |
+| Post Condition | Admin berhasil mengelola data user |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin melihat data kependudukan**
+**3.2.4 Admin Lihat Data Absen**
 
 |  |  |
 |--|--|
-| Nama Fungsi | View data kependudukan |
+| Nama Fungsi | Lihat Data Absen |
+| Xref | Bagian 2.2.4, Admin Lihat Data Absen |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1.  Admin memilih menu absen <br> 2. Sistem menampilkan data absen <br> 3. Admin melihat data absen |
+| Alternative | Tidak ada |
+| Post Condition | Admin dapat melihat data absen |
+| Exception Push | Tidak ada koneksi |
+   
+**3.2.5 Admin Kelola Data Absen**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Kelola Data Absen |
 | Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Trigger |  Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih menu absen <br> 2. Sistem menampilkan seluruh data absen <br> 3. Admin mengelola data absen dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data absen |
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
+| Post Condition | Admin berhasil mengelola data absen |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.6 Cetak Laporan**
+**3.2.6 Pengunjung Registrasi**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | halaman utama admin |
-| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
+| Nama Fungsi | Registrasi |
+| Xref | Bagian 2.2.6, Pengunjung Registrasi |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman registrasi |
+| Basic Path | 1. Pengunjung melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi |
 | Alternative | Tidak ada |
-| Post Condition | Halaman Laporan |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Post Condition | Pengunjung berhasil validasi akun dan dapat melakukan login |
+| Exception Push | Validasi akun gagal |
 
-**3.2.7  Admin mengelola user**
+**3.2.7 Pengunjung Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
-| Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
-| Post Condition | Halaman user |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.7, Pengunjung Login |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman login |
+| Basic Path | 1. Pengunjung melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka pengunjung diminta kembali menginputkan username dan password |
+| Alternative | Tidak ada |
+| Post Condition | Pengunjung berhasil login dan mengakses website |
+| Exception Push | Username dan password salah |
+
+**3.2.8 Pengunjung Mengisi Data Absen**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Input Absen |
+| Xref | Bagian 2.2.8, Mengisi Data Absen |
+| Trigger | Membuka website sistem absensi perpustakaan |
+| Precondition | Halaman dahboard pengunjung |
+| Basic Path | 1. Pengunjung membuka halaman absen <br> 2. Sistem menampilkan form pada halaman absen <br> 3. 3. Pengunjung mengisi form absen <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada halaman absen admin |
+| Alternative | Tidak ada |
+| Post Condition | Pengunjung berhasil input absen |
+| Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
