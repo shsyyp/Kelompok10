@@ -100,7 +100,7 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
+![enter image description here](gambar/perangkat.jpg)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak sistem absensi perpustakaan SMA Al-Ittihad Rumbai antara lain :
 
@@ -121,14 +121,14 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/use-case.jpg)
+![](gambar/use-case.jpg)
    
 **2.2.1 Admin Registrasi**
 
 Use Case: Registrasi
 
 Diagram : 
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-reg.jpg)
+![](gambar/adm-reg.jpg)
 
 Deskripsi Singkat:
 Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
@@ -143,7 +143,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram: 
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-login.jpg)
+![](gambar/adm-login.jpg)
 
 Deskripsi Singkat:
 Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
@@ -158,7 +158,7 @@ Deskripsi Langkah-langkah:
 Use Case: Kelola Data User
 
 Diagram :
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-keldatus.jpg)
+![](gambar/adm-keldatus.jpg)
 
 Deskripsi Singkat:
 Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
@@ -173,7 +173,7 @@ Deskripsi Langkah-langkah:
 Use Case: Lihat Data Absen
 
 Diagram:
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-lidab.jpg)
+![](gambar/adm-lidab.jpg)
       
 Deskripsi Singkat
 Admin dapat melihat data absen yang telah di input oleh pengunjung.
@@ -187,7 +187,7 @@ Deskripsi Langkah-langkah
 Use Case: Kelola Data Absen
 
 Diagram:
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/adm-keldap.jpg)
+![](gambar/adm-keldap.jpg)
 
 Deskripsi Singkat:
 Admin dapat mengelola data absen, seperti tambah, edit, dan hapus.
@@ -202,7 +202,7 @@ Deskripsi Langkah-langkah:
 Use Case: Registrasi
 
 Diagram:
-![](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-reg.jpg)
+![](gambar/pen-reg.jpg)
 
 Deskripsi Singkat:
 Pengunjung melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
@@ -217,7 +217,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram:
-![enter image description here](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-login.jpg)
+![enter image description here](gambar/pen-login.jpg)
 
 Deskripsi Singkat:
 Pengunjung melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
@@ -232,7 +232,7 @@ Deskripsi Langkah-langkah:
 Use Case: Mengisi Data Absen
 
 Diagram:
-![enter image description here](https://github.com/shsyyp/Kelompok10/blob/877319bdb9aba7fd162d019e0c2ead9eb53de0fd/gambar/pen-input.jpg)
+![enter image description here](gambar/pen-input.jpg)
 
 Deskripsi Singkat:
 Pengunjung menginputkan data absen yang diminta oleh sistem.
@@ -249,7 +249,7 @@ Deskripsi Langkah-langkah:
    | No | Deskripsi |
    | ------ | ------ |
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
-   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin, sekdes dan kepala desa ) 
+   | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin dan pengunjung ) 
  
 2.4   Karakteristik pengguna
 ----------
