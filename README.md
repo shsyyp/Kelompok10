@@ -1,5 +1,5 @@
 
-![enter image description here](gambar/cover.jpg)
+![enter image description here](gambar/cover.png)
  
 
 **BAB I Pendahuluan**
