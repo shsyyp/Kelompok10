@@ -77,8 +77,8 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 
 
 |  |  |
 |--|--|
-| ![enter image description here](gambar/prototype/landingpage.png) Pada halaman ini admin diminta untuk login.| ![enter image description here](gambar/prototype/login.png) Pada halaman ini diminta untuk mengisi username  dan password.|
-| ![enter image description here](gambar/prototype/regis.png) Pada halaman ini diminta untuk mengisi registrasi. | ![enter image description here](gambar/prototype/adm-home.png) Pada halaman ini merupakan tampilan home admin.|
+| ![enter image description here](gambar/prototype/landingpage.png) Pada halaman ini admin diminta untuk login.| ![enter image description here]gambar/prototype/adm-login.png) Pada halaman ini diminta untuk mengisi username  dan password.|
+| ![enter image description here](gambar/prototype/adm-regis.png) Pada halaman ini diminta untuk mengisi registrasi. | ![enter image description here](gambar/prototype/adm-home.png) Pada halaman ini merupakan tampilan home admin.|
 | ![enter image description here](gambar/prototype/adm-absen.png) Pada halaman ini merupakan tampilan siswa dan guru yang datang berkunjung. | ![enter image description here](gambar/prototype/adm-kelola.png) Pada halaman ini merupakan data kunjungan. |
  
 **2.1.3 Antarmuka Perangkat Keras**
