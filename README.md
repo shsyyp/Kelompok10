@@ -392,3 +392,9 @@ Struktur data logika pada sistem absensi perpustakaan terdapat struktur database
 | tanggal_waktu | datetime | Berisikan tanggal dan waktu kunjungan |
 | tujuan | varchar | Berisikan tujuan kunjungan |
 | kesan_pesan | varchar | Berisikan kesan dan pesan |
+
+
+Dokumentasi
+----------
+
+![enter image description here](gambar/sistem.jpg)
