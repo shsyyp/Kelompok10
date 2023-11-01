@@ -12,7 +12,7 @@ Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi p
 ----------
 Sistem absensi perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis website yang kami bangun untuk mempermudah staf perpustakaan dalam mengelola absensi yang ada di perpustakaan tersebut, serta memudahkan staf dalam melihat laporan karena sudah terhubung ke dalam database.
 
-1.3    Akronim, singkatan, definisi
+1.3    Akronim, Singkatan, Definisi
 ----------
 | Istilah | Definisi |
 | ------ | ------ |
@@ -34,7 +34,7 @@ Referensi yang digunakan dalam pengembangan perangkat lunak ini adalah :
 Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjelaskan gambaran umum dari aplikasi, sistem interface aplikasi dan alur sistemnya. Bab terakhir menjelaskan tentang setiap fungsi yang digunakan secara teknisnya. Pada bab 2 dan 3 merupakan deskripsi dari aplikasi yang akan diterapkan pada aplikasi yang dibuat.
 
 
-**BAB II Gambaran umum**
+**BAB II Gambaran Umum**
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari–hari. Seperti perpustakaan tidak bisa dipisahkan dari pembelajaran siswa dan siswi di SMA IT AL-Ittihad dalam mencari ilmu pengetahuan. Fasilitas yang disediakan perpustakaan sekolah ini, sangatlah bermanfaat bagi semua siswa dan siswi dalam studi kasus proyek kami ini menganalisis kebutuhan suatu sekolah di daerah Pekanbaru tepatnya di Rumbai Kecamatan Rumbai Pesisir. Kasus yang kami peroleh pembuatan laporan pengunjung di Perpustakaan Sekolah ini. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Sekolah ini dengan menerapkan sistem absensi berbasis website yang akan menggantikan sistem manual sebelumnya. 
 
@@ -52,17 +52,17 @@ Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
    - Kelola data diri
    - Input data kunjungan
 
-2.1   Perspektif produk
+2.1   Perspektif Produk
 ----------
 Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah sistem administrasi data yang diaplikasikan pada website. Terdapat 2 jenis, yaitu admin (staf perpustakaan) dan siswa-siswi (pengunjung). Siswa-siswi (pengunjung) dapat menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
 
-**2.1.1 Antarmuka sistem**
+**2.1.1 Antarmuka Sistem**
 
 ![enter image description here](gambar/sistem.jpg)
 
 Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). Siswa-siswi (pengunjung) mempunyai fungsi yaitu menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
 
-**2.1.2 Antarmuka pengguna**
+**2.1.2 Antarmuka Pengguna**
 
    - **Mockup Admin ( Website )**
 
@@ -76,7 +76,7 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Grafik%20Angka%20kematian.png) Pada Halaman grafik kematian dapat melihat data angka kematian| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Laporan.png) Pada Halaman laporan dapat melihat dan mendownload laporan penduduk|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Lupa%20Password.png) Pada halaman lupa password dapat mengganti password terlebih dahulu memasukkan username dan password sebelumnya| |
  
-**2.1.3 Antarmuka perangkat keras**
+**2.1.3 Antarmuka Perangkat Keras**
 
 ![enter image description here](gambar/perangkat.jpg)
 
@@ -85,7 +85,7 @@ Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak si
 1. PC / Laptop
 Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS Windows, Linux, atau MAC dan sudah terinstall browser .
 
-**2.1.4 Operasi-operasi**
+**2.1.4 Operasi-Operasi**
 
 | Operasi | Fungsi |
 | ------ | ------ |
@@ -97,7 +97,7 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
 
-2.2 Spesifikasi Kebutuhan fungsional
+2.2 Spesifikasi Kebutuhan Fungsional
 ----------
 ![](gambar/use-case.jpg)
    
@@ -220,7 +220,7 @@ Deskripsi Langkah-langkah:
 3. Pengunjung mengisi form absen
 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada halaman absen admin
 
-2.3   Spesifikasi Kebutuhan non-fungsional
+2.3   Spesifikasi Kebutuhan Non-Fungsional
 ----------
 - Tabel Kebutuhan Non-Fungsional 
 
@@ -229,17 +229,17 @@ Deskripsi Langkah-langkah:
    | 1 | Semua interface dan fungsi menggunakan Bahasa Indonesia |
    | 2 | Perangkat Lunak dapat dipakai di semua platofrm  OS ( Admin dan pengunjung ) 
  
-2.4   Karakteristik pengguna
+2.4   Karakteristik Pengguna
 ----------
 Karakteristik pengguna dari perangkat lunak ini adalah pengguna langsung berinteraksi dengan sistem tanpa harus dihubungkan dengan hak akses atau level autentikasi.
 
-2.5   Batasan-batasan
+2.5   Batasan-Batasan
 ----------
 - Perangkat lunak web hanya dijalankan di windows (10 dan 11). 
 - Waktu pengembangan perangkat lunak yang singkat membuat adanya kemungkinan tidak semua fungsi yang ada dapat dilaksanakan.
 
 
-BAB III Requirement specification
+BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
