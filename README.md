@@ -72,6 +72,14 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 
 | ![enter image description here](gambar/prototype/regis.png) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](gambar/prototype/home.png) Pada Halaman agama dapat menginputkan data agama penduduk|
 | ![enter image description here](gambar/prototype/absen.png) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](gambar/prototype/feedback.png) Pada Halaman warga dapat menginputkan data warga|
 | ![enter image description here](gambar/prototype/akun.png) Pada Halaman pendidikan dapat menginputkan data pendidikan penduduk|
+
+   - **Mockup Admin ( Website )**
+
+|  |  |
+|--|--|
+| ![enter image description here](gambar/prototype/landingpage.png) Pada halaman login admin diminta untuk mengisi username dan password.| ![enter image description here](gambar/prototype/login.png) Pada Dashboard admin terdapat panel-panel seperti penduduk, pendidikan, agama, pekerjaan, laporan dan ucapan selamat datang.|
+| ![enter image description here](gambar/prototype/regis.png) Pada halaman dashboard ada navigation bar kependudukan yang berisi dropdown angka kelahiran dan angka kematian| ![enter image description here](gambar/prototype/adm-home.png) Pada Halaman agama dapat menginputkan data agama penduduk|
+| ![enter image description here](gambar/prototype/adm-absen.png) Pada Halaman pekerjaan dapat menginputkan data pekerjaan penduduk| ![enter image description here](gambar/prototype/adm-kelola.png) Pada Halaman warga dapat menginputkan data warga|
  
 **2.1.3 Antarmuka Perangkat Keras**
 
@@ -403,6 +411,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Membuat srs |
-| Said Fahrur Raziq | Membuat use case |
-| Shasy Wiade Putri | Membuat srs |
+| Rina Al-Qomar Puji Siswati | Membuat srs dan prototype |
+| Said Fahrur Raziq | Membuat use case dan srs |
+| Shasy Wiade Putri | Membuat srs, erd, dan prototype |
