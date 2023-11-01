@@ -408,3 +408,10 @@ Jobdesk
 | Rina Al-Qomar Puji Siswati | Membuat srs (bab 1 sampai bab 2 bagian gambaran umum) dan prototype |
 | Said Fahrur Raziq | Membuat use case |
 | Shasy Wiade Putri | Membuat srs (dari bagian 2.1 sampai akhir), membuat github dan erd |
+
+
+Surat validasi
+----------
+
+![enter image description here](suratvalidasi.jpg)
+
