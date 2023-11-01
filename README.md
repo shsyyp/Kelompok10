@@ -391,10 +391,11 @@ Struktur data logika pada sistem absensi perpustakaan terdapat struktur database
 | kesan_pesan | varchar | Berisikan kesan dan pesan |
 
 
-Dokumentasi
+Dokumentasi dan Validasi Wawancara
 ----------
 
 ![enter image description here](gambar/dokum1.jpg)
+![enter image description here](gambar/validasi.jpg)
 
 
 Jobdesk
@@ -402,6 +403,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Membuat srs (bab 1 sampai bab 2 bagian gambaran umum) dan prototype |
+| Rina Al-Qomar Puji Siswati | Membuat srs |
 | Said Fahrur Raziq | Membuat use case |
-| Shasy Wiade Putri | Membuat srs (dari bagian 2.1 sampai akhir), membuat github dan erd |
+| Shasy Wiade Putri | Membuat srs |
