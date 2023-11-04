@@ -60,7 +60,7 @@ Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah
 
 **2.1.1 Antarmuka Sistem**
 
-![enter image description here](gambar/sistem.jpg)
+![]()
 
 Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). Siswa-siswi (pengunjung) mempunyai fungsi yaitu menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
 
@@ -260,7 +260,7 @@ Deskripsi Langkah-langkah:
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
 4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password
 
-**2.2.11 User Mengisi Form Kunjungan**
+**2.2.11 Pengunjung Mengisi Form Kunjungan**
 
 Use Case: Mengisi Form Kunjungan
 
@@ -275,7 +275,7 @@ Deskripsi Langkah-langkah:
 3. User mengisi form kunjungan dan menyimpan form
 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin
 
-**2.2.12 User Mengisi Form Peminjaman**
+**2.2.12 Pengunjung Mengisi Form Peminjaman**
 
 Use Case: Mengisi Form Peminjaman
 
@@ -290,7 +290,7 @@ Deskripsi Langkah-langkah:
 3. User mengisi form peminjaman dan menyimpan form
 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin
 
-**2.2.13 User Mengisi Form Pengembalian**
+**2.2.13 Pengunjung Mengisi Form Pengembalian**
 
 Use Case: Mengisi Form Pengembalian
 
@@ -343,7 +343,7 @@ BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan registrasi akun, kemudian admin maupun pengunjung login menggunakan username dan password yang telah didaftarkan ketika registrasi. Setelah berhasil login, pengunjung dapat mengisi absen dan admin dapat melihat absen yang telah diinputkan oleh pengunjung dan mengelola data di sistem tersebut.
+Salah satu cara mengakses aplikasi ini yaitu dengan registrasi akun, kemudian admin maupun user login menggunakan username dan password yang telah didaftarkan ketika registrasi. Setelah berhasil login, user dapat mengisi form kunjungan, form peminjaman, form pengembalian atau melihat data buku, dan admin dapat mengelola data user, data peminjaman, data pengembalian, data buku, data kunjungan atau melihat dan mencetak laporan di sistem tersebut.
       
 3.2 Functional Requirement
 ----------
@@ -355,7 +355,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Registrasi |
 | Xref | Bagian 2.2.1, Admin Registrasi |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman registrasi |
 | Basic Path | 1. Admin melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi |
 | Alternative | Tidak ada |
@@ -368,89 +368,167 @@ Logika Struktur terdapat pada bagian 3.3.1
 |--|--|
 | Nama Fungsi | Login |
 | Xref | Bagian 2.2.2, Admin Login |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman login |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password |
 | Alternative | Tidak ada |
 | Post Condition | Admin berhasil login dan mengakses website |
 | Exception Push | Username dan password salah |
    
-**3.2.3 Admin Kelola Data User**
+**3.2.3 Admin Mengelola Data User**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Kelola Data User |
-| Xref | Bagian 2.2.3, Admin Kelola Data User |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Nama Fungsi | Mengelola Data User |
+| Xref | Bagian 2.2.3, Admin Mengelola Data User |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
 | Basic Path | 1. Admin memilih data user <br> 2. Sistem menampilkan seluruh data user <br> 3. Admin mengelola data user dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data user |
 | Alternative | Tidak ada |
 | Post Condition | Admin berhasil mengelola data user |
 | Exception Push | Tidak ada koneksi |
-   
-**3.2.4 Admin Lihat Data Absen**
+
+**3.2.4 Admin Mengelola Data Peminjaman**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Lihat Data Absen |
-| Xref | Bagian 2.2.4, Admin Lihat Data Absen |
+| Nama Fungsi | Mengelola Data Peminjaman |
+| Xref | Bagian 2.2.4, Admin Mengelola Data Peminjaman |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih menu peminjaman <br> 2. Sistem menampilkan seluruh data peminjaman <br> 3. Admin mengelola data peminjaman dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data peminjaman |
+| Alternative | Tidak ada |
+| Post Condition | Admin berhasil mengelola data peminjaman |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.5 Admin Mengelola Data Pengembalian**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Mengelola Data Pengembalian |
+| Xref | Bagian 2.2.5, Admin Mengelola Data Pengembalian |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih menu pengembalian <br> 2. Sistem menampilkan seluruh data pengembalian <br> 3. Admin mengelola data pengembalian dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data pengembalian |
+| Alternative | Tidak ada |
+| Post Condition | Admin berhasil mengelola data pengembalian |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.6 Admin Mengelola Data Buku**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Mengelola Data Buku |
+| Xref | Bagian 2.2.6, Admin Mengelola Data Buku |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih menu buku <br> 2. Sistem menampilkan seluruh data buku <br> 3. Admin mengelola data buku dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data buku |
+| Alternative | Tidak ada |
+| Post Condition | Admin berhasil mengelola data buku |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.7 Admin Mengelola Data Kunjungan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Mengelola Data Kunjungan |
+| Xref | Bagian 2.2.7, Admin Mengelola Data Kunjungan |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dashboard admin |
+| Basic Path | 1. Admin memilih menu kunjungan <br> 2. Sistem menampilkan seluruh data kunjungan <br> 3. Admin mengelola data kunjungan dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data kunjungan |
+| Alternative | Tidak ada |
+| Post Condition | Admin berhasil mengelola data kunjungan |
+| Exception Push | Tidak ada koneksi |
+   
+**3.2.8 Admin Melihat dan Mencetak Laporan**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Melihat dan Mencetak Laporan |
+| Xref | Bagian 2.2.8, Admin Lihat Data Absen |
 | Trigger | Membuka website sistem absensi perpustakaan |
 | Precondition | Halaman dashboard admin |
-| Basic Path | 1.  Admin memilih menu absen <br> 2. Sistem menampilkan data absen <br> 3. Admin melihat data absen |
+| Basic Path | 1.  Admin memilih menu laporan <br> 2. Admin melakukan pencarian dengan memasukkan tanggal peminjaman, tanggal pengembalian atau nama user <br> 3. Sistem menampilkan seluruh data yang diminta admin <br> 4. Admin melihat data yang diminta <br> 5. Jika admin ingin mencetak laporan, maka admin memilih cetak <br> 6. Sistem akan mencetak laporan |
 | Alternative | Tidak ada |
-| Post Condition | Admin dapat melihat data absen |
+| Post Condition | Admin dapat melihat dan mencetak laporan |
 | Exception Push | Tidak ada koneksi |
    
-**3.2.5 Admin Kelola Data Absen**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Kelola Data Absen |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger |  Membuka website sistem absensi perpustakaan |
-| Precondition | Halaman dashboard admin |
-| Basic Path | 1. Admin memilih menu absen <br> 2. Sistem menampilkan seluruh data absen <br> 3. Admin mengelola data absen dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data absen |
-| Alternative | Tidak ada |
-| Post Condition | Admin berhasil mengelola data absen |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.6 Pengunjung Registrasi**
+**3.2.9 User Registrasi**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Registrasi |
-| Xref | Bagian 2.2.6, Pengunjung Registrasi |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Xref | Bagian 2.2.9, User Registrasi |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman registrasi |
-| Basic Path | 1. Pengunjung melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan pengunjung kembali diminta mengisi form registrasi |
+| Basic Path | 1. User melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan user kembali diminta mengisi form registrasi |
 | Alternative | Tidak ada |
-| Post Condition | Pengunjung berhasil validasi akun dan dapat melakukan login |
+| Post Condition | User berhasil validasi akun dan dapat melakukan login |
 | Exception Push | Validasi akun gagal |
 
-**3.2.7 Pengunjung Login**
+**3.2.10 User Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.7, Pengunjung Login |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Xref | Bagian 2.2.10, User Login |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman login |
-| Basic Path | 1. Pengunjung melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka pengunjung diminta kembali menginputkan username dan password |
+| Basic Path | 1. User melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password |
 | Alternative | Tidak ada |
-| Post Condition | Pengunjung berhasil login dan mengakses website |
+| Post Condition | user berhasil login dan mengakses website |
 | Exception Push | Username dan password salah |
 
-**3.2.8 Pengunjung Mengisi Data Absen**
+**3.2.11 User Mengisi Form Kunjungan**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Input Absen |
-| Xref | Bagian 2.2.8, Mengisi Data Absen |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Nama Fungsi | Mengisi Form Kunjungan |
+| Xref | Bagian 2.2.11, User Mengisi Form Kunjungan |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dahboard pengunjung |
-| Basic Path | 1. Pengunjung membuka halaman absen <br> 2. Sistem menampilkan form pada halaman absen <br> 3. 3. Pengunjung mengisi form absen <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada halaman absen admin |
+| Basic Path | 1. User memilih menu kunjungan <br> 2. Sistem menampilkan riwayat kunjungan dan form kunjungan <br> 3. User mengisi form kunjungan dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin |
 | Alternative | Tidak ada |
-| Post Condition | Pengunjung berhasil input absen |
+| Post Condition | Pengunjung berhasil mengisi data kunjungan |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.12 User Mengisi Form Peminjaman**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Mengisi Form Peminjaman |
+| Xref | Bagian 2.2.12, User Mengisi Form Peminjaman |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dahboard pengunjung |
+| Basic Path | 1. User memilih menu peminjaman <br> 2. Sistem menampilkan riwayat peminjaman dan form peminjaman <br> 3. User mengisi form peminjaman dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin |
+| Alternative | Tidak ada |
+| Post Condition | User berhasil mengisi data peminjaman |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.13 User Mengisi Form Pengembalian**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Mengisi Form Pengembalian |
+| Xref | Bagian 2.2.13, User Mengisi Form Pengembalian |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dahboard pengunjung |
+| Basic Path | 1. User memilih menu pengembalian <br> 2. Sistem menampilkan riwayat pengembalian dan form pengembalian <br> 3. User mengisi form pengembalian dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengembalian admin |
+| Alternative | Tidak ada |
+| Post Condition | User berhasil mengisi data pengembalian |
+| Exception Push | Tidak ada koneksi |
+
+**3.2.14 User Melihat Data Buku**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Melihat Data Buku |
+| Xref | Bagian 2.2.14, User Melihat Data Buku |
+| Trigger | Membuka website sistem informasi perpustakaan |
+| Precondition | Halaman dahboard pengunjung |
+| Basic Path | 1. User memilih menu buku <br> 2. User melakukan pencarian dengan memasukkan judul buku, kategori buku, nama pengarang, nama penerbit atau lokasi buku <br> 3. 3. Sistem menampilkan seluruh data yang diminta user <br> 4. User melihat data yang diminta |
+| Alternative | Tidak ada |
+| Post Condition | User berhasil melihat data buku |
 | Exception Push | Tidak ada koneksi |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
@@ -458,7 +536,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem absensi perpustakaan terdapat struktur database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/shsyyp/Kelompok10/blob/04ca50d07e6d494d456a708590c11b83b8a93bd6/gambar/erd.png)
+![]()
 
 **Tabel Siswa**
 
