@@ -534,15 +534,15 @@ Logika Struktur terdapat pada bagian 3.3.1
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem absensi perpustakaan terdapat struktur database yang dijelaskan menggunakan ERD.
+Struktur data logika pada sistem informasi perpustakaan terdapat struktur database yang dijelaskan menggunakan ERD.
 
 ![]()
 
-**Tabel Siswa**
+**Tabel Admin**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_admin| varchar | Nomor auto increment id_admin |
+| id_admin | varchar | Nomor auto increment id_admin |
 | username | varchar | Berisikan NIP untuk akses login admin |
 | password | varchar | Berisikan password untuk login admin |
 | role | varchar | Untuk membedakan role saat login |
@@ -553,7 +553,7 @@ Struktur data logika pada sistem absensi perpustakaan terdapat struktur database
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_pengunjung| varchar | Nomor auto increment id_pengunjung |
+| id_pengunjung | varchar | Nomor auto increment id_pengunjung |
 | username | varchar | Berisikan NIP untuk akses login pengunjung |
 | password | varchar | Berisikan password untuk login pengunjung |
 | role | varchar | Untuk membedakan role saat login |
@@ -561,16 +561,53 @@ Struktur data logika pada sistem absensi perpustakaan terdapat struktur database
 | asal | varchar | Berisikan asal pengunjung |
 | jenis_kelamin | varchar | Berisikan jenis kelamin pengunjung |
 
-**Tabel Absen**
+**Tabel Kunjungan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_absen| varchar | Nomor auto increment id_absen |
-| username | varchar | Berisikan NISN/NIP untuk mengisi absen kunjungan |
+| id_kunjungan | varchar | Nomor auto increment id_absen |
+| username | varchar | Berisikan NISN/NIP untuk mengisi data kunjungan |
 | tanggal_waktu | datetime | Berisikan tanggal dan waktu kunjungan |
 | tujuan | varchar | Berisikan tujuan kunjungan |
 | kesan_pesan | varchar | Berisikan kesan dan pesan |
 
+**Tabel Buku**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_buku | varchar | Nomor auto increment id_buku |
+| judul | varchar | Berisikan judul buku |
+| pengarang | varchar | Berisikan pengarang buku |
+| th_terbit | varchar | Berisikan tahun terbit buku |
+| penerbit | varchar | Berisikan penerbit buku |
+| isbn | varchar | Berisikan isbn buku |
+| kategori | varchar | Berisikan kategori buku |
+| jumlah | int | Berisikan jumlah buku |
+| lokasi | varchar | Berisikan lokasi buku |
+| gambar | text | Berisikan gambar buku |
+
+**Tabel Peminjaman**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_peminjaman | varchar | Nomor auto increment id_peminjaman |
+| username | varchar | Berisikan NISN/NIP untuk mengisi data peminjaman |
+| judul | varchar | Berisikan judul buku |
+| tanggal_pinjam | date | Berisikan tanggal peminjaman saat ini |
+| tanggal_kembali | date | Berisikan tanggal pengembalian seharusnya |
+| status | varchar | Berisikan status peminjaman |
+| ket | varchar | Berisikan keterangan peminjaman |
+
+**Tabel Pengembalian**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_pengembalian | varchar | Nomor auto increment id_pengembalian |
+| username | varchar | Berisikan NISN/NIP untuk mengisi data pengembalian |
+| judul | varchar | Berisikan judul buku |
+| tanggal_pengembalian | date | Berisikan tanggal pengembalian saat ini |
+| status | varchar | Berisikan status pengembalian |
+| ket | varchar | Berisikan keterangan pengembalian |
 
 Dokumentasi dan Validasi Wawancara
 ----------
