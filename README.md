@@ -41,16 +41,18 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 Dalam pembuatan sistem tersebut menggunakan pemrograman PHP dengan Sublime Text 3 dan menggunakan XAMPP untuk membuat databasenya. Penggunaan sistem absensi perpustakaan berbasis website ini diharapkan dapat mempermudah pustakawan dalam memperoleh data kehadiran siswa dan menginputkan data-data kunjungan siswa-siswi. Software yang kami buat ini berbasis website dimana website sebagai siswa-siswi (pengunjung) perpustakaan SMA IT AL-Ittihad Rumbai. Sistem yang kami buat di dalamnya terdapat data diri dan data kunjungan.
 
 Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
-   - Input data diri
-   - Kelola data diri
-   - View data diri pengunjung
-   - View data kunjungan
-   - Kelola data kunjungan
+   - Mengelola data user
+   - Mengelola data peminjaman
+   - Mengelola data pengembalian
+   - Mengelola data buku
+   - Mengelola data kunjungan
+   - Melihat dan mencetak laporan
    
    Berikut ini fungsi pengunjung :
-   - Input data diri
-   - Kelola data diri
-   - Input data kunjungan
+   - Mengisi form kunjungan
+   - Mengisi form peminjaman
+   - Mengisi form pengembalian
+   - Melihat data buku
 
 2.1   Perspektif Produk
 ----------
@@ -83,7 +85,7 @@ Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 
  
 **2.1.3 Antarmuka Perangkat Keras**
 
-![enter image description here](gambar/perangkat.jpg)
+![enter image description here]()
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak sistem absensi perpustakaan SMA Al-Ittihad Rumbai antara lain :
 
@@ -104,14 +106,14 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 
 2.2 Spesifikasi Kebutuhan Fungsional
 ----------
-![](gambar/use-case.jpg)
+![]()
    
 **2.2.1 Admin Registrasi**
 
 Use Case: Registrasi
 
 Diagram : 
-![](gambar/adm-reg.jpg)
+![]()
 
 Deskripsi Singkat:
 Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
@@ -126,7 +128,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram: 
-![](gambar/adm-login.jpg)
+![]()
 
 Deskripsi Singkat:
 Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
@@ -136,12 +138,12 @@ Deskripsi Langkah-langkah:
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
 4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password
 
-**2.2.3 Admin Kelola Data User**
+**2.2.3 Admin Mengelola Data User**
 
-Use Case: Kelola Data User
+Use Case: Mengelola Data User
 
 Diagram :
-![](gambar/adm-keldatus.jpg)
+![]()
 
 Deskripsi Singkat:
 Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
@@ -151,79 +153,172 @@ Deskripsi Langkah-langkah:
 3. Admin mengelola data user dan mengklik tombol simpan
 4. Sistem menyimpan hasil kelola data user
       
-**2.2.4 Admin Lihat Data Absen**
+**2.2.4 Admin Mengelola Data Peminjaman**
 
-Use Case: Lihat Data Absen
+Use Case: Mengelola data Peminjaman
 
 Diagram:
-![](gambar/adm-lidab.jpg)
+![]()
       
 Deskripsi Singkat
-Admin dapat melihat data absen yang telah di input oleh pengunjung.
+Admin dapat mengelola data peminjaman, seperti tambah, edit, dan hapus.
 Deskripsi Langkah-langkah
-1. Admin memilih menu absen
-2. Sistem menampilkan data absen
-3. Admin melihat data absen
+1. Admin memilih menu peminjaman
+2. Sistem menampilkan seluruh data peminjaman
+3. Admin mengelola data peminjaman dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data peminjaman
 
-**2.2.5 Admin Kelola Data Absen**
+**2.2.5 Admin Kelola Data Pengembalian**
 
-Use Case: Kelola Data Absen
+Use Case: Mengelola Data Pengembalian
 
 Diagram:
-![](gambar/adm-keldap.jpg)
+![]()
 
 Deskripsi Singkat:
-Admin dapat mengelola data absen, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah:
-1. Admin memilih menu absen
-2. Sistem menampilkan seluruh data absen
-3. Admin mengelola data absen dan mengklik tombol simpan
-4. Sistem menyimpan hasil kelola data absen
+Admin dapat mengelola data pengembalian, seperti tambah, edit, dan hapus.
+Deskripsi Langkah-langkah
+1. Admin memilih menu pengembalian
+2. Sistem menampilkan seluruh data pengembalian
+3. Admin mengelola data pengembalian dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data pengembalian
 
-**2.2.6 Pengunjung Registrasi**
+**2.2.6 Admin Kelola Data Buku**
+
+Use Case: Mengelola Data Buku
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+Admin dapat mengelola data buku, seperti tambah, edit, dan hapus.
+Deskripsi Langkah-langkah
+1. Admin memilih menu buku
+2. Sistem menampilkan seluruh data buku
+3. Admin mengelola data buku dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data buku
+
+**2.2.7 Admin Kelola Data Kunjungan**
+
+Use Case: Mengelola Data Kunjungan
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+Admin dapat mengelola data kunjungan, seperti tambah, edit, dan hapus.
+Deskripsi Langkah-langkah
+1. Admin memilih menu kunjungan
+2. Sistem menampilkan seluruh data kunjungan
+3. Admin mengelola data kunjungan dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data kunjungan
+
+**2.2.8 Admin Melihat dan Mencetak Laporan**
+
+Use Case: Melihat dan Mencetak Laporan
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+Admin dapat melihat laporan yang berisi data kunjungan, data peminjaman, data pengembalian, dan data user.
+Deskripsi Langkah-langkah
+1. Admin memilih menu laporan
+2. Admin melakukan pencarian dengan memasukkan tanggal peminjaman, tanggal pengembalian atau nama user
+3. Sistem menampilkan seluruh data yang diminta admin
+4. Admin melihat data yang diminta
+5. Jika admin ingin mencetak laporan, maka admin memilih cetak
+6. Sistem akan mencetak laporan
+
+**2.2.9 User Registrasi**
 
 Use Case: Registrasi
 
 Diagram:
-![](gambar/pen-reg.jpg)
+![]()
 
 Deskripsi Singkat:
-Pengunjung melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
+User melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
 Deskripsi langkah-langkah:
-1. Pengunjung melakukan registrasi dengan mengisi form registrasi
+1. User melakukan registrasi dengan mengisi form registrasi
 2. Sistem melakukan validasi registrasi akun
 3. Jika berhasil, sistem akan mengarahkan ke halaman login
-4. Jika gagal, sistem akan menampilkan peringatan dan pengunjung kembali diminta mengisi form registrasi 
+4. Jika gagal, sistem akan menampilkan peringatan dan user kembali diminta mengisi form registrasi 
 
-**2.2.7 Pengunjung Login**
+**2.2.10 User Login**
 
 Use Case: Login
 
 Diagram:
-![enter image description here](gambar/pen-login.jpg)
+![]()
 
 Deskripsi Singkat:
-Pengunjung melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
+User melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
 Deskripsi Langkah-langkah:
-1. Pengunjung melakukan login dengan username dan password
+1. User melakukan login dengan username dan password
 2. Sistem melakukan validasi akun
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
-4. Jika akun tidak valid, maka pengunjung diminta kembali menginputkan username dan password
+4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password
 
-**2.2.8 Pengunjung Mengisi Data Absen**
+**2.2.11 Pengunjung Mengisi Form Kunjungan**
 
-Use Case: Mengisi Data Absen
+Use Case: Mengisi Form Kunjungan
 
 Diagram:
-![enter image description here](gambar/pen-input.jpg)
+![]()
 
 Deskripsi Singkat:
-Pengunjung menginputkan data absen yang diminta oleh sistem.
+User mengisi form kunjungan ketika datang ke perpustakaan.
 Deskripsi Langkah-langkah:
-1. Pengunjung membuka halaman absen
-2. Sistem menampilkan form pada halaman absen
-3. Pengunjung mengisi form absen
-4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada halaman absen admin
+1. User memilih menu kunjungan
+2. Sistem menampilkan riwayat kunjungan dan form kunjungan
+3. User mengisi form kunjungan dan menyimpan form
+4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin
+
+**2.2.12 Pengunjung Mengisi Form Peminjaman**
+
+Use Case: Mengisi Form Peminjaman
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+User mengisi form peminjaman ketika ingin meminjam buku.
+Deskripsi Langkah-langkah:
+1. User memilih menu peminjaman
+2. Sistem menampilkan riwayat peminjaman dan form peminjaman
+3. User mengisi form peminjaman dan menyimpan form
+4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin
+
+**2.2.13 Pengunjung Mengisi Form Pengembalian**
+
+Use Case: Mengisi Form Pengembalian
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+User mengisi form pengembalian ketika ingin mengembalikan buku.
+Deskripsi Langkah-langkah:
+1. User memilih menu pengembalian
+2. Sistem menampilkan riwayat pengembalian dan form peminjaman
+3. User mengisi form pengembalian dan menyimpan form
+4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengembalian admin
+
+**2.2.14 User Melihat Data Buku**
+
+Use Case: Melihat Data Buku
+
+Diagram:
+![]()
+
+Deskripsi Singkat:
+User dapat melihat data buku.
+Deskripsi Langkah-langkah
+1. User memilih menu buku
+2. User melakukan pencarian dengan memasukkan judul buku, kategori buku, nama pengarang, nama penerbit atau lokasi buku
+3. Sistem menampilkan seluruh data yang diminta user
+4. User melihat data yang diminta
 
 2.3   Spesifikasi Kebutuhan Non-Fungsional
 ----------
