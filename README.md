@@ -595,8 +595,6 @@ Struktur data logika pada sistem informasi perpustakaan terdapat struktur databa
 | judul | varchar | Berisikan judul buku |
 | tanggal_pinjam | date | Berisikan tanggal peminjaman saat ini |
 | tanggal_kembali | date | Berisikan tanggal pengembalian seharusnya |
-| status | varchar | Berisikan status peminjaman |
-| ket | varchar | Berisikan keterangan peminjaman |
 
 **Tabel Pengembalian**
 
@@ -607,7 +605,6 @@ Struktur data logika pada sistem informasi perpustakaan terdapat struktur databa
 | judul | varchar | Berisikan judul buku |
 | tanggal_pengembalian | date | Berisikan tanggal pengembalian saat ini |
 | status | varchar | Berisikan status pengembalian |
-| ket | varchar | Berisikan keterangan pengembalian |
 
 Dokumentasi dan Validasi Wawancara
 ----------
