@@ -260,7 +260,7 @@ Deskripsi Langkah-langkah:
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
 4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password
 
-**2.2.11 Pengunjung Mengisi Form Kunjungan**
+**2.2.11 User Mengisi Form Kunjungan**
 
 Use Case: Mengisi Form Kunjungan
 
@@ -275,7 +275,7 @@ Deskripsi Langkah-langkah:
 3. User mengisi form kunjungan dan menyimpan form
 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin
 
-**2.2.12 Pengunjung Mengisi Form Peminjaman**
+**2.2.12 User Mengisi Form Peminjaman**
 
 Use Case: Mengisi Form Peminjaman
 
@@ -290,7 +290,7 @@ Deskripsi Langkah-langkah:
 3. User mengisi form peminjaman dan menyimpan form
 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin
 
-**2.2.13 Pengunjung Mengisi Form Pengembalian**
+**2.2.13 User Mengisi Form Pengembalian**
 
 Use Case: Mengisi Form Pengembalian
 
