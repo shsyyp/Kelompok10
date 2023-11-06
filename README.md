@@ -632,6 +632,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Membuat srs dan prototype |
-| Said Fahrur Raziq | Membuat use case dan srs |
-| Shasy Wiade Putri | Membuat srs, erd, dan prototype |
+| Rina Al-Qomar Puji Siswati | Bab 1 |
+| Said Fahrur Raziq | Bab 2 |
+| Shasy Wiade Putri | Bab 2 dan bab 3 |
