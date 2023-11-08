@@ -240,7 +240,7 @@ Deskripsi Langkah-langkah
 Use Case: Registrasi
 
 Diagram:
-![]()
+![enter image description here](gambar/user%20registrasi.png)  
 
 Deskripsi Singkat:
 User melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
