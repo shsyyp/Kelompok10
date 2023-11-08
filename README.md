@@ -110,7 +110,8 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 
 2.2 Spesifikasi Kebutuhan Fungsional
 ----------
-![]()
+![enter image description here](gambar/use%20case.png)
+
    
 **2.2.1 Admin Registrasi**
 
