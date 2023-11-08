@@ -628,6 +628,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Bab 1 dan bab 2 (gambaran umum) |
+| Rina Al-Qomar Puji Siswati | Bab 1 dan bab 2 (gambaran umum),prototype|
 | Said Fahrur Raziq | Bab 2 |
 | Shasy Wiade Putri | Bab 2, bab 3, dan prototype |
