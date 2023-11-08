@@ -70,20 +70,11 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 
 **2.1.2 Antarmuka Pengguna**
 
-   - **Mockup Pengunjung ( Website )**
-
-|  |  |
-|--|--|
-| ![enter image description here](gambar/prototype/landingpage.png) Pada halaman ini admin diminta untuk login.| ![enter image description here](gambar/prototype/login.png) Pada halaman ini diminta untuk mengisi username  dan password.|
-| ![enter image description here](gambar/prototype/regis.png) Pada halaman ini diminta untuk mengisi registrasi. | ![enter image description here](gambar/prototype/home.png) Pada halaman ini diminta untuk mengisi nama anggota dan kelas  dan tanggal registrasi.|
-| ![enter image description here](gambar/prototype/absen.png) Pada halaman ini diminta untuk mengisi tujuan datang ke perpustakaan. | ![enter image description here](gambar/prototype/feedback.png) Pada halaman ini diminta untuk memberikan feedback. |
-| ![enter image description here](gambar/prototype/akun.png) Pada halaman ini menampilkan akun data diri. |
-
    - **Mockup Admin ( Website )**
 
 |  |  |
 |--|--|
-| ![enter image description here](gambar/prototype/landingpage.png) Pada halaman ini admin diminta untuk login.| ![enter image description here](gambar/prototype/adm-login.png) Pada halaman ini diminta untuk mengisi username  dan password.|
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/70647df606bb5e786af24d7d2fe295abac5702eb/gambar/prototype/landing-page.png) Pada halaman ini admin diminta untuk login.| ![enter image description here](gambar/prototype/adm-login.png) Pada halaman ini diminta untuk mengisi username  dan password.|
 | ![enter image description here](gambar/prototype/adm-regis.png) Pada halaman ini diminta untuk mengisi registrasi. | ![enter image description here](gambar/prototype/adm-home.png) Pada halaman ini merupakan tampilan home admin.|
 | ![enter image description here](gambar/prototype/adm-absen.png) Pada halaman ini merupakan tampilan siswa dan guru yang datang berkunjung. | ![enter image description here](gambar/prototype/adm-kelola.png) Pada halaman ini merupakan data kunjungan. |
  
