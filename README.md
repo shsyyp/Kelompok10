@@ -67,7 +67,7 @@ Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah
 ![enter image description here](gambar/use%20case%20srs.drawio.png)
 
 
-Sistem Absensi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). Siswa-siswi (pengunjung) mempunyai fungsi yaitu menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
+Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). Siswa-siswi (pengunjung) mempunyai fungsi yaitu menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
 
 **2.1.2 Antarmuka Pengguna**
 
@@ -636,6 +636,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Bab 1 |
+| Rina Al-Qomar Puji Siswati | Bab 1 dan Bab 2 |
 | Said Fahrur Raziq | Bab 2 |
 | Shasy Wiade Putri | Bab 2 dan bab 3 |
