@@ -178,7 +178,7 @@ Deskripsi Langkah-langkah
 Use Case: Mengelola Data Pengembalian
 
 Diagram:
-![]()
+![enter image description here](gambar/Admin%20mengelola%20data%20pengembalian.png)    
 
 Deskripsi Singkat:
 Admin dapat mengelola data pengembalian, seperti tambah, edit, dan hapus.
