@@ -285,7 +285,7 @@ Deskripsi Langkah-langkah:
 Use Case: Mengisi Form Peminjaman
 
 Diagram:
-![]()
+![enter image description here](gambar/user%20mengisi%20form%20peminjaman.png) 
 
 Deskripsi Singkat:
 User mengisi form peminjaman ketika ingin meminjam buku.
