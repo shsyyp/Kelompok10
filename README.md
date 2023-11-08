@@ -300,7 +300,7 @@ Deskripsi Langkah-langkah:
 Use Case: Mengisi Form Pengembalian
 
 Diagram:
-![]()
+![enter image description here](gambar/user%20mengisi%20form%20pengembalian.png) 
 
 Deskripsi Singkat:
 User mengisi form pengembalian ketika ingin mengembalikan buku.
