@@ -315,7 +315,7 @@ Deskripsi Langkah-langkah:
 Use Case: Melihat Data Buku
 
 Diagram:
-![]()
+![enter image description here](gambar/user%20melihat%20data%20buku.png) 
 
 Deskripsi Singkat:
 User dapat melihat data buku.
