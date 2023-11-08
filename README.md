@@ -1,4 +1,5 @@
-![enter image description here](gambar/first.png)
+![enter image description here](cover%20srs%20kel%2010.png)
+
  
 **BAB I Pendahuluan**
 ----------
