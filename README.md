@@ -147,7 +147,8 @@ Deskripsi Langkah-langkah:
 Use Case: Mengelola Data User
 
 Diagram :
-![]()
+![enter image description here](gambar/admin%20megelola%20dta%20user.png)
+
 
 Deskripsi Singkat:
 Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
