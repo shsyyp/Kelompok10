@@ -117,7 +117,7 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 Use Case: Registrasi
 
 Diagram : 
-| ![enter image description here](Adminregistrasi.png) Pada halaman ini diminta untuk mengisi registrasi. | 
+| ![enter image description here]([Adminregistrasi.png](https://github.com/shsyyp/Kelompok10/blob/09e4f545b0a22aa89a61eccdb8d4c310a5332fba/gambar/Admin%20login.png)) Pada halaman ini diminta untuk mengisi registrasi. | 
 
 Deskripsi Singkat:
 Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
