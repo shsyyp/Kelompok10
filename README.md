@@ -117,7 +117,8 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 Use Case: Registrasi
 
 Diagram : 
- ![enter image description here](![enter image description here](gambar/validasi.jpg))
+![enter image description here](gambar/Admin%20login.png)
+
 
 Deskripsi Singkat:
 Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
