@@ -1,6 +1,5 @@
-![enter image description here](gambar/cover%20srs%20kel%2010.png)
+![enter image description here](gambar/Cover_framwork.jpg)
 
- 
 **BAB I Pendahuluan**
 ----------
 1.1 Tujuan
