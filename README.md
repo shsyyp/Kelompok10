@@ -193,7 +193,7 @@ Deskripsi Langkah-langkah
 Use Case: Mengelola Data Buku
 
 Diagram:
-![]()
+![enter image description here](gambar/admin%20mengelola%20data%20buku.png)  
 
 Deskripsi Singkat:
 Admin dapat mengelola data buku, seperti tambah, edit, dan hapus.
