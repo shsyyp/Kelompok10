@@ -132,7 +132,7 @@ Deskripsi langkah-langkah:
 Use Case: Login
 
 Diagram: 
-![]()
+![enter image description here](gambar/Admin%20login.png)
 
 Deskripsi Singkat:
 Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
