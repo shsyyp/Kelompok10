@@ -1,4 +1,4 @@
-![enter image description here](gambar/Cover_framwork.jpg)
+![enter image description here](gambar/Cover_framwork%20Neww.jpg)
 
 **BAB I Pendahuluan**
 ----------
