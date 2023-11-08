@@ -163,8 +163,8 @@ Deskripsi Langkah-langkah:
 Use Case: Mengelola data Peminjaman
 
 Diagram:
-![]()
-      
+![enter image description here](gambar/admin%20mengelola%20data%20pminjaman.png )     
+
 Deskripsi Singkat
 Admin dapat mengelola data peminjaman, seperti tambah, edit, dan hapus.
 Deskripsi Langkah-langkah
