@@ -82,7 +82,7 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
  
 **2.1.3 Antarmuka Perangkat Keras**
 
-![enter image description here]()
+![enter image description here](gambar/perangkat%20keras.jpeg)
 
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak sistem absensi perpustakaan SMA Al-Ittihad Rumbai antara lain :
 
