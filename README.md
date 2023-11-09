@@ -217,7 +217,7 @@ Deskripsi Langkah-langkah
 Use Case: Melihat dan Mencetak Laporan
 
 Diagram:
-![]()
+![enter image description here](gambar/admin%20melihat%20laporan.png) 
 
 Deskripsi Singkat:
 Admin dapat melihat laporan yang berisi data kunjungan, data peminjaman, data pengembalian, dan data user.
