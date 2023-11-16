@@ -606,15 +606,6 @@ Struktur data logika pada sistem informasi perpustakaan terdapat struktur databa
 | tanggal_pengembalian | date | Berisikan tanggal pengembalian saat ini |
 | status | varchar | Berisikan status pengembalian |
 
-**Tabel Laporan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| id_laporan | varchar | Nomor auto increment id_laporan |
-| username | varchar | Berisikan NISN/NIP |
-| id_peminjaman | varchar | Nomor auto increment id_peminjaman |
-| id_pengembalian | varchar | Nomor auto increment id_pengembalian |
-| id_kunjungan | varchar | Nomor auto increment id_kunjungan |
 
 Dokumentasi dan Validasi Wawancara
 ----------
