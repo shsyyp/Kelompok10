@@ -74,6 +74,16 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/buku.png) Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/kunjungan.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/peminjaman.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/pengembalian.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/user.png) Halaman ini  adalah bagian yang memungkinkan admin untuk mengelola informasi pengunjung. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/laporan.png) Halaman ini adalah fitur yang memungkinkan admin untuk mengakses berbagai laporan dan data terkait aktivitas perpustakaan. |
+
+   - **Website**
+
+|  |  |
+|--|--|
+| ![enter image description here]() Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here]() Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
+| ![enter image description here]() Halaman ini  adalah tempat di mana pengguna yang sudah memiliki akun dapat memasukkan informasi login untuk mengakses layanan perpustakaan secara online. | ![enter image description here]() Halaman ini adalah halaman pribadi yang diberikan kepada pengguna setelah mereka berhasil login. |
+| ![enter image description here]() Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
+| ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
+| ![enter image description here]() Halaman ini  adalah bagian yang memungkinkan admin untuk mengelola informasi pengunjung. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan admin untuk mengakses berbagai laporan dan data terkait aktivitas perpustakaan. |
  
 **2.1.3 Antarmuka Perangkat Keras**
 
