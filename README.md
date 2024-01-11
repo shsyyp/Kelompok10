@@ -542,69 +542,68 @@ Struktur data logika pada sistem informasi perpustakaan terdapat struktur databa
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_admin | varchar | Nomor auto increment id_admin |
+| id | varchar | Nomor auto increment id admin |
+| nama | varchar | Berisikan nama admin |
+| jk | varchar | Berisikan jenis kelamin admin |
+| role | varchar | Untuk membedakan role saat login |
 | username | varchar | Berisikan NIP untuk akses login admin |
 | password | varchar | Berisikan password untuk login admin |
-| role | varchar | Untuk membedakan role saat login |
+
+**Tabel Anggota**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id | varchar | Nomor auto increment id anggota |
+| kode_anggota | varchar | Berisikan kode anggota |
+| jenis_anggota | varchar | Berisikan jenis anggota |
 | nama | varchar | Berisikan nama admin |
-| jenis_kelamin | varchar | Berisikan jenis kelamin admin |
-
-**Tabel Pengunjung**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| id_pengunjung | varchar | Nomor auto increment id_pengunjung |
-| username | varchar | Berisikan NIP untuk akses login pengunjung |
-| password | varchar | Berisikan password untuk login pengunjung |
-| role | varchar | Untuk membedakan role saat login |
-| nama | varchar | Berisikan nama pengunjung |
-| asal | varchar | Berisikan asal pengunjung |
-| jenis_kelamin | varchar | Berisikan jenis kelamin pengunjung |
-
-**Tabel Kunjungan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| id_kunjungan | varchar | Nomor auto increment id_kunjungan |
-| username | varchar | Berisikan NISN/NIP untuk mengisi data kunjungan |
-| tanggal_waktu | datetime | Berisikan tanggal dan waktu kunjungan |
-| tujuan | varchar | Berisikan tujuan kunjungan |
-| kesan_pesan | varchar | Berisikan kesan dan pesan |
+| jenis_kelamin | varchar | Berisikan jenis kelamin anggota |
 
 **Tabel Buku**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_buku | varchar | Nomor auto increment id_buku |
+| id | varchar | Nomor auto increment id buku |
 | judul | varchar | Berisikan judul buku |
 | pengarang | varchar | Berisikan pengarang buku |
 | th_terbit | varchar | Berisikan tahun terbit buku |
 | penerbit | varchar | Berisikan penerbit buku |
 | isbn | varchar | Berisikan isbn buku |
 | kategori | varchar | Berisikan kategori buku |
-| jumlah | int | Berisikan jumlah buku |
 | lokasi | varchar | Berisikan lokasi buku |
-| gambar | text | Berisikan gambar buku |
+| gambar | varchar | Berisikan gambar buku |
+
+**Tabel Eksemplar**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id | varchar | Nomor auto increment id eksemplar |
+| buku_id | varchar | Foreign key dari tabel buku |
+| kode_eksemplar | varchar | Berisikan kode dari eksemplar |
+| kesan_pesan | varchar | Berisikan kesan dan pesan |
 
 **Tabel Peminjaman**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_peminjaman | varchar | Nomor auto increment id_peminjaman |
-| username | varchar | Berisikan NISN/NIP untuk mengisi data peminjaman |
-| judul | varchar | Berisikan judul buku |
-| tanggal_pinjam | date | Berisikan tanggal peminjaman saat ini |
-| tanggal_kembali | date | Berisikan tanggal pengembalian seharusnya |
+| id | varchar | Nomor auto increment id peminjaman |
+| anggota_id | varchar | Foreign key dari tabel anggota |
+| eksemplar_id | varchar | Foreign key dari tabel eksemplar |
+| tanggal_pinjam | date | Berisikan tanggal peminjaman |
+| tanggal_kembali | date | Berisikan tanggal pengembalian |
+| status | varchar | Berisikan status buku |
 
-**Tabel Pengembalian**
+**Tabel Pengunjung**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| id_pengembalian | varchar | Nomor auto increment id_pengembalian |
-| username | varchar | Berisikan NISN/NIP untuk mengisi data pengembalian |
-| judul | varchar | Berisikan judul buku |
-| tanggal_pengembalian | date | Berisikan tanggal pengembalian saat ini |
-| status | varchar | Berisikan status pengembalian |
+| id | varchar | Nomor auto increment id pengunjung |
+| jenis_pengunjung | varchar | Berisikan jenis pengunjung |
+| id_tamu | varchar | Nomor auto increment id tamu |
+| nama | varchar | Berisikan nama pengunjung |
+| asal | varchar | Berisikan asal pengunjung |
+| tujuan | varchar | Berisikan tujuan kunjungan |
+| tanggal_waktu | datetime | Berisikan tanggal dan waktu kunjungan |
 
 
 Dokumentasi dan Validasi Wawancara
