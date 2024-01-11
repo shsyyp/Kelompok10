@@ -186,105 +186,28 @@ Diagram:
 
 Deskripsi Singkat:
 Admin dapat mengelola data pengunjung, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah
+Deskripsi langkah-langkah:
 1. Admin memilih menu pengunjung
 2. Sistem menampilkan seluruh data pengunjung
 3. Admin mengelola data pengunjung dan mengklik tombol simpan
 4. Sistem menyimpan hasil kelola data pengunjung
 
-**2.2.8 Admin Melihat dan Mencetak Laporan**
+**2.2.7 Pengunjung Mengisi Form Pengunjung**
 
-Use Case: Melihat dan Mencetak Laporan
-
-Diagram:
-![enter image description here](gambar/admin%20melihat%20laporan.png) 
-
-Deskripsi Singkat:
-Admin dapat melihat laporan yang berisi data kunjungan, data peminjaman, data pengembalian, dan data user.
-Deskripsi Langkah-langkah
-1. Admin memilih menu laporan
-2. Admin melakukan pencarian dengan memasukkan tanggal peminjaman, tanggal pengembalian atau nama user
-3. Sistem menampilkan seluruh data yang diminta admin
-4. Admin melihat data yang diminta
-5. Jika admin ingin mencetak laporan, maka admin memilih cetak
-6. Sistem akan mencetak laporan
-
-**2.2.9 User Registrasi**
-
-Use Case: Registrasi
-
-Diagram:
-![enter image description here](gambar/user%20registrasi.png)  
-
-Deskripsi Singkat:
-User melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
-Deskripsi langkah-langkah:
-1. User melakukan registrasi dengan mengisi form registrasi
-2. Sistem melakukan validasi registrasi akun
-3. Jika berhasil, sistem akan mengarahkan ke halaman login
-4. Jika gagal, sistem akan menampilkan peringatan dan user kembali diminta mengisi form registrasi 
-
-**2.2.10 User Login**
-
-Use Case: Login
-
-Diagram:
-![enter image description here](gambar/user%20login.png)  
-
-Deskripsi Singkat:
-User melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
-Deskripsi Langkah-langkah:
-1. User melakukan login dengan username dan password
-2. Sistem melakukan validasi akun
-3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
-4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password
-
-**2.2.11 Pengunjung Mengisi Form Kunjungan**
-
-Use Case: Mengisi Form Kunjungan
+Use Case: Mengisi Form Pengunjung
 
 Diagram:
 ![enter image description here](gambar/user%20mengisi%20form%20kunjungan.png) 
 
 Deskripsi Singkat:
-User mengisi form kunjungan ketika datang ke perpustakaan.
-Deskripsi Langkah-langkah:
-1. User memilih menu kunjungan
-2. Sistem menampilkan riwayat kunjungan dan form kunjungan
-3. User mengisi form kunjungan dan menyimpan form
-4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin
+User mengisi form pengunjung ketika datang ke perpustakaan.
+Deskripsi langkah-langkah:
+1. User memilih menu pengunjung
+2. Sistem menampilkan form pengunjung
+3. User mengisi form pengunjung dan menyimpan form
+4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengunjung admin
 
-**2.2.12 Pengunjung Mengisi Form Peminjaman**
-
-Use Case: Mengisi Form Peminjaman
-
-Diagram:
-![enter image description here](gambar/user%20mengisi%20form%20peminjaman.png) 
-
-Deskripsi Singkat:
-User mengisi form peminjaman ketika ingin meminjam buku.
-Deskripsi Langkah-langkah:
-1. User memilih menu peminjaman
-2. Sistem menampilkan riwayat peminjaman dan form peminjaman
-3. User mengisi form peminjaman dan menyimpan form
-4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin
-
-**2.2.13 Pengunjung Mengisi Form Pengembalian**
-
-Use Case: Mengisi Form Pengembalian
-
-Diagram:
-![enter image description here](gambar/user%20mengisi%20form%20pengembalian.png) 
-
-Deskripsi Singkat:
-User mengisi form pengembalian ketika ingin mengembalikan buku.
-Deskripsi Langkah-langkah:
-1. User memilih menu pengembalian
-2. Sistem menampilkan riwayat pengembalian dan form peminjaman
-3. User mengisi form pengembalian dan menyimpan form
-4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengembalian admin
-
-**2.2.14 User Melihat Data Buku**
+**2.2.8 User Melihat Data Buku**
 
 Use Case: Melihat Data Buku
 
@@ -294,7 +217,7 @@ Diagram:
 
 Deskripsi Singkat:
 User dapat melihat data buku.
-Deskripsi Langkah-langkah
+Deskripsi langkah-langkah:
 1. User memilih menu buku
 2. User melakukan pencarian dengan memasukkan judul buku, kategori buku, nama pengarang, nama penerbit atau lokasi buku
 3. Sistem menampilkan seluruh data yang diminta user
