@@ -101,22 +101,7 @@ Untuk menjalankan Aplikasi ini admin membutuhkan sebuah PC yang menggunakan OS W
 ----------
 ![enter image description here](gambar/usecasee.png)
 
-**2.2.1 Admin Registrasi**
-
-Use Case: Registrasi
-
-Diagram : 
-![enter image description here](gambar/Admin%20registrasi.png)
-
-Deskripsi Singkat:
-Admin melakukan registrasi terlebih dahulu sebelum masuk ke tampilan login.
-Deskripsi langkah-langkah:
-1. Admin melakukan registrasi dengan mengisi form registrasi
-2. Sistem melakukan validasi registrasi akun
-3. Jika berhasil, sistem akan mengarahkan ke halaman login
-4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi
-   
-**2.2.2 Admin Login**
+**2.2.1 Admin Login**
 
 Use Case: Login
 
@@ -124,30 +109,30 @@ Diagram:
 ![enter image description here](gambar/Admin%20login.png)
 
 Deskripsi Singkat:
-Admin melakukan login menggunakan username dan password yang telah didaftarkan ketika registrasi.
+Admin melakukan login menggunakan username dan password yang telah didaftarkan.
 Deskripsi Langkah-langkah:
 1. Admin melakukan login dengan username dan password
 2. Sistem melakukan validasi akun
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
 4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password
 
-**2.2.3 Admin Mengelola Data User**
+**2.2.2 Admin Mengelola Data Anggota**
 
-Use Case: Mengelola Data User
+Use Case: Mengelola Data Anggota
 
 Diagram :
 ![enter image description here](gambar/admin%20megelola%20dta%20user.png)
 
 
 Deskripsi Singkat:
-Admin dapat mengelola data user, seperti tambah, edit, dan hapus.
+Admin dapat mengelola data anggota, seperti tambah, edit, dan hapus.
 Deskripsi Langkah-langkah:
-1. Admin memilih data user
-2. Sistem menampilkan seluruh data user
-3. Admin mengelola data user dan mengklik tombol simpan
-4. Sistem menyimpan hasil kelola data user
+1. Admin memilih data anggota
+2. Sistem menampilkan seluruh data anggota
+3. Admin mengelola data anggota dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data anggota
       
-**2.2.4 Admin Mengelola Data Peminjaman**
+**2.2.3 Admin Mengelola Data Peminjaman**
 
 Use Case: Mengelola data Peminjaman
 
