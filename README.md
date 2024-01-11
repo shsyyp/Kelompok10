@@ -40,19 +40,17 @@ Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah sat
 Dalam pembuatan sistem tersebut menggunakan pemrograman PHP dengan Sublime Text 3 dan menggunakan XAMPP untuk membuat databasenya. Penggunaan sistem absensi perpustakaan berbasis website ini diharapkan dapat mempermudah pustakawan dalam melakukan pengelolaan data di Perputakaan. Software yang kami buat ini berbasis website dimana website sebagai siswa-siswi (pengunjung) perpustakaan SMA IT AL-Ittihad Rumbai. Sistem yang kami buat di dalamnya terdapat data diri,data buku dan data kunjungan.
 
 Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
-   - Input data diri
    - kelola data user
-   - kelola data peminjaman buku
-   - kelola data pengembalian buku
-   - kelola data Eksemplar
-   - View data diri user
-   - Kelola data kunjungan
+   - kelola data peminjaman
+   - kelola data exemplar
+   - kelola data pengunjung
+   - kelola data buku
    - view statistik kunjungan
    - view data top kunjungan
    - view data top peminjaman
    
    Berikut ini fungsi pengunjung :
-   - Input form kunjungan
+   - input form pengunjung
    - view data buku
 
 2.1   Perspektif Produk
