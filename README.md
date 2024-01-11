@@ -255,7 +255,8 @@ BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan menggunakan sistem ini pada website, kemudian admin login menggunakan username dan password Setelah login, admin  diarahkan ke dasbor yang memberikan ringkasan aktivitas dan dapat mengelola serta melihat seluruh data lalu Pengunjung dapat mengakses halaman pencarian dan kunjungan tanpa login.      
+Salah satu cara mengakses aplikasi ini yaitu dengan menggunakan sistem ini pada website, kemudian admin login menggunakan username dan password Setelah login, admin diarahkan ke dasbor yang memberikan ringkasan aktivitas dan dapat mengelola serta melihat seluruh data lalu Pengunjung dapat mengakses halaman pencarian dan kunjungan tanpa login.
+
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
