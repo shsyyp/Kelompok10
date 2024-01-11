@@ -278,12 +278,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil mengelola data anggota |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.4 Admin Mengelola Data Peminjaman**
+**3.2.3 Admin Mengelola Data Peminjaman**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola Data Peminjaman |
-| Xref | Bagian 2.2.4, Admin Mengelola Data Peminjaman |
+| Xref | Bagian 2.2.3, Admin Mengelola Data Peminjaman |
 | Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
 | Basic Path | 1. Admin memilih menu peminjaman <br> 2. Sistem menampilkan seluruh data peminjaman <br> 3. Admin mengelola data peminjaman dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data peminjaman |
@@ -291,25 +291,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil mengelola data peminjaman |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.5 Admin Mengelola Data Pengembalian**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengelola Data Pengembalian |
-| Xref | Bagian 2.2.5, Admin Mengelola Data Pengembalian |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman dashboard admin |
-| Basic Path | 1. Admin memilih menu pengembalian <br> 2. Sistem menampilkan seluruh data pengembalian <br> 3. Admin mengelola data pengembalian dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data pengembalian |
-| Alternative | Tidak ada |
-| Post Condition | Admin berhasil mengelola data pengembalian |
-| Exception Push | Tidak ada koneksi |
-
-**3.2.6 Admin Mengelola Data Buku**
+**3.2.4 Admin Mengelola Data Buku**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola Data Buku |
-| Xref | Bagian 2.2.6, Admin Mengelola Data Buku |
+| Xref | Bagian 2.2.4, Admin Mengelola Data Buku |
 | Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
 | Basic Path | 1. Admin memilih menu buku <br> 2. Sistem menampilkan seluruh data buku <br> 3. Admin mengelola data buku dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data buku |
@@ -317,105 +304,53 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil mengelola data buku |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.7 Admin Mengelola Data Kunjungan**
+**3.2.5 Admin Mengelola Data Exemplar**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola Data Kunjungan |
-| Xref | Bagian 2.2.7, Admin Mengelola Data Kunjungan |
+| Nama Fungsi | Mengelola Data Exemplar |
+| Xref | Bagian 2.2.5, Admin Mengelola Data Exemplar |
 | Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
-| Basic Path | 1. Admin memilih menu kunjungan <br> 2. Sistem menampilkan seluruh data kunjungan <br> 3. Admin mengelola data kunjungan dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data kunjungan |
+| Basic Path | 1. Admin memilih menu exemplar <br> 2. Sistem menampilkan seluruh data exemplar <br> 3. Admin mengelola data exemplar dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data exemplar |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil mengelola data kunjungan |
+| Post Condition | Admin berhasil mengelola data exemplar |
 | Exception Push | Tidak ada koneksi |
-   
-**3.2.8 Admin Melihat dan Mencetak Laporan**
+
+**3.2.6 Admin Mengelola Data Pengunjung**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Melihat dan Mencetak Laporan |
-| Xref | Bagian 2.2.8, Admin Lihat Data Absen |
-| Trigger | Membuka website sistem absensi perpustakaan |
+| Nama Fungsi | Mengelola Data Pengunjung |
+| Xref | Bagian 2.2.6, Admin Mengelola Data Pengunjung |
+| Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
-| Basic Path | 1.  Admin memilih menu laporan <br> 2. Admin melakukan pencarian dengan memasukkan tanggal peminjaman, tanggal pengembalian atau nama user <br> 3. Sistem menampilkan seluruh data yang diminta admin <br> 4. Admin melihat data yang diminta <br> 5. Jika admin ingin mencetak laporan, maka admin memilih cetak <br> 6. Sistem akan mencetak laporan |
+| Basic Path | 1. Admin memilih menu pengunjung <br> 2. Sistem menampilkan seluruh data pengunjung <br> 3. Admin mengelola data pengunjung dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data pengunjung |
 | Alternative | Tidak ada |
-| Post Condition | Admin dapat melihat dan mencetak laporan |
-| Exception Push | Tidak ada koneksi |
-   
-**3.2.9 User Registrasi**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Registrasi |
-| Xref | Bagian 2.2.9, User Registrasi |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman registrasi |
-| Basic Path | 1. User melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan user kembali diminta mengisi form registrasi |
-| Alternative | Tidak ada |
-| Post Condition | User berhasil validasi akun dan dapat melakukan login |
-| Exception Push | Validasi akun gagal |
-
-**3.2.10 User Login**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Login |
-| Xref | Bagian 2.2.10, User Login |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman login |
-| Basic Path | 1. User melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka user diminta kembali menginputkan username dan password |
-| Alternative | Tidak ada |
-| Post Condition | user berhasil login dan mengakses website |
-| Exception Push | Username dan password salah |
-
-**3.2.11 User Mengisi Form Kunjungan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengisi Form Kunjungan |
-| Xref | Bagian 2.2.11, User Mengisi Form Kunjungan |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman dahboard pengunjung |
-| Basic Path | 1. User memilih menu kunjungan <br> 2. Sistem menampilkan riwayat kunjungan dan form kunjungan <br> 3. User mengisi form kunjungan dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu kunjungan admin |
-| Alternative | Tidak ada |
-| Post Condition | Pengunjung berhasil mengisi data kunjungan |
+| Post Condition | Admin berhasil mengelola data pengunjung |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.12 User Mengisi Form Peminjaman**
+**3.2.7 User Mengisi Form Pengunjung**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengisi Form Peminjaman |
-| Xref | Bagian 2.2.12, User Mengisi Form Peminjaman |
+| Nama Fungsi | Mengisi Form Pengunjung |
+| Xref | Bagian 2.2.7, User Mengisi Form Pengunjung |
 | Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman dahboard pengunjung |
-| Basic Path | 1. User memilih menu peminjaman <br> 2. Sistem menampilkan riwayat peminjaman dan form peminjaman <br> 3. User mengisi form peminjaman dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu peminjaman admin |
+| Precondition | Halaman onboarding |
+| Basic Path | 1. User memilih menu pengunjung <br> 2. Sistem menampilkan form pengunjung <br> 3. User mengisi form pengunjung dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengunjung admin |
 | Alternative | Tidak ada |
-| Post Condition | User berhasil mengisi data peminjaman |
+| Post Condition | Pengunjung berhasil mengisi data pengunjung |
 | Exception Push | Tidak ada koneksi |
 
-**3.2.13 User Mengisi Form Pengembalian**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengisi Form Pengembalian |
-| Xref | Bagian 2.2.13, User Mengisi Form Pengembalian |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman dahboard pengunjung |
-| Basic Path | 1. User memilih menu pengembalian <br> 2. Sistem menampilkan riwayat pengembalian dan form pengembalian <br> 3. User mengisi form pengembalian dan menyimpan form <br> 4. Sistem akan menyimpan inputan ke database dan inputan akan tampil pada menu pengembalian admin |
-| Alternative | Tidak ada |
-| Post Condition | User berhasil mengisi data pengembalian |
-| Exception Push | Tidak ada koneksi |
-
-**3.2.14 User Melihat Data Buku**
+**3.2.8 User Melihat Data Buku**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Melihat Data Buku |
-| Xref | Bagian 2.2.14, User Melihat Data Buku |
+| Xref | Bagian 2.2.8, User Melihat Data Buku |
 | Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman dahboard pengunjung |
+| Precondition | Halaman onboarding |
 | Basic Path | 1. User memilih menu buku <br> 2. User melakukan pencarian dengan memasukkan judul buku, kategori buku, nama pengarang, nama penerbit atau lokasi buku <br> 3. 3. Sistem menampilkan seluruh data yang diminta user <br> 4. User melihat data yang diminta |
 | Alternative | Tidak ada |
 | Post Condition | User berhasil melihat data buku |
