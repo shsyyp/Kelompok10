@@ -66,7 +66,32 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 
 **2.1.2 Antarmuka Pengguna**
 
-   - **Mockup Admin ( Website )**
+   - **Mockup Admin ( Website )**Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
+   - kelola data anggota
+   - kelola data peminjaman buku
+   - kelola data pengembalian buku
+   - kelola data exemplar
+   - kelola data pengunjung
+   - view statistik kunjungan
+   - view data top kunjungan
+   - view data top peminjaman
+   
+   Berikut ini fungsi pengunjung :
+   - input form pengunjung
+   - view data buku
+
+2.1   Perspektif Produk
+----------
+Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah sistem administrasi data yang diaplikasikan pada website. Terdapat 2 jenis, yaitu admin (staf perpustakaan) dan siswa-siswi (pengunjung). Siswa-siswi (pengunjung) dapat menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
+
+**2.1.1 Antarmuka Sistem**
+![enter image description here](gambar/antarmukasistem.png)
+
+Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). Siswa-siswi (pengunjung) mempunyai fungsi yaitu menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
+
+**2.1.2 Antarmuka Pengguna**
+
+   - **Prototype**
 
 |  |  |
 |--|--|
