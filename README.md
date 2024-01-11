@@ -536,7 +536,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem informasi perpustakaan terdapat struktur database yang dijelaskan menggunakan ERD.
 
-![](https://github.com/shsyyp/Kelompok10/blob/fed802ec423bb7652117928dada96f2efe9c14f9/gambar/prototype/erd.png)
+![](https://github.com/shsyyp/Kelompok10/blob/7ee8e7f656e7c9571b33b489292efbd21c15df05/gambar/prototype/newww.drawio.png)
 
 **Tabel Admin**
 
