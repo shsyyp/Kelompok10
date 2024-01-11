@@ -59,7 +59,7 @@ Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah
 
 **2.1.1 Antarmuka Sistem**
 
-Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu siswa-siswi (pengunjung) dan admin (staf perpustakaan). pengunjung mempunyai fungsi yaitu menginput data kunjungan dan admin staf perpustakaan dapat melihat dan mengelola data yang telah diinputkan oleh pengunjung.
+Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memiliki 2 user, yaitu pengunjung dan admin (staf perpustakaan). pengunjung mempunyai fungsi yaitu menginput data kunjungan dan admin staf perpustakaan dapat melihat dan mengelola data yang telah diinputkan oleh pengunjung.
 
 ![enter image description here](gambar/antarmukasistem.png)
 
