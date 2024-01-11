@@ -41,21 +41,18 @@ Dalam pembuatan sistem tersebut menggunakan pemrograman PHP dengan Sublime Text 
 
 Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
    - Input data diri
-   - Kelola data diri
    - kelola data user
    - kelola data peminjaman buku
    - kelola data pengembalian buku
+   - kelola data Eksemplar
    - View data diri user
-   - kelola data kunjungan
    - Kelola data kunjungan
-   - view Laporan
+   - view statistik kunjungan
+   - view data top kunjungan
+   - view data top peminjaman
    
    Berikut ini fungsi pengunjung :
-   - Input data diri
-   - Kelola data diri
-   - Input data kunjungan
-   - input form peminjaman buku
-   - input form pengembalian buku
+   - Input form kunjungan
    - view data buku
 
 2.1   Perspektif Produk
