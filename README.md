@@ -205,7 +205,7 @@ Deskripsi langkah-langkah:
 Use Case: Mengelola Data Pengunjung
 
 Diagram:
-![enter image description here](gambar/admin%20menglola%20data%20kunjungan.png)  
+![enter image description here](gambar/Admin%20mengelola%20data%20pengunjung.png)  
 
 Deskripsi Singkat:
 Admin dapat mengelola data pengunjung, seperti tambah, edit, dan hapus.
