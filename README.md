@@ -110,7 +110,7 @@ Diagram:
 
 Deskripsi Singkat:
 Admin melakukan login menggunakan username dan password yang telah didaftarkan.
-Deskripsi Langkah-langkah:
+Deskripsi langkah-langkah:
 1. Admin melakukan login dengan username dan password
 2. Sistem melakukan validasi akun
 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard
@@ -126,7 +126,7 @@ Diagram :
 
 Deskripsi Singkat:
 Admin dapat mengelola data anggota, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah:
+Deskripsi langkah-langkah:
 1. Admin memilih data anggota
 2. Sistem menampilkan seluruh data anggota
 3. Admin mengelola data anggota dan mengklik tombol simpan
@@ -141,28 +141,13 @@ Diagram:
 
 Deskripsi Singkat
 Admin dapat mengelola data peminjaman, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah
+Deskripsi langkah-langkah:
 1. Admin memilih menu peminjaman
 2. Sistem menampilkan seluruh data peminjaman
 3. Admin mengelola data peminjaman dan mengklik tombol simpan
 4. Sistem menyimpan hasil kelola data peminjaman
 
-**2.2.5 Admin Kelola Data Pengembalian**
-
-Use Case: Mengelola Data Pengembalian
-
-Diagram:
-![enter image description here](gambar/Admin%20mengelola%20data%20pengembalian.png)    
-
-Deskripsi Singkat:
-Admin dapat mengelola data pengembalian, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah
-1. Admin memilih menu pengembalian
-2. Sistem menampilkan seluruh data pengembalian
-3. Admin mengelola data pengembalian dan mengklik tombol simpan
-4. Sistem menyimpan hasil kelola data pengembalian
-
-**2.2.6 Admin Kelola Data Buku**
+**2.2.4 Admin Kelola Data Buku**
 
 Use Case: Mengelola Data Buku
 
@@ -171,26 +156,41 @@ Diagram:
 
 Deskripsi Singkat:
 Admin dapat mengelola data buku, seperti tambah, edit, dan hapus.
-Deskripsi Langkah-langkah
+Deskripsi langkah-langkah:
 1. Admin memilih menu buku
 2. Sistem menampilkan seluruh data buku
 3. Admin mengelola data buku dan mengklik tombol simpan
 4. Sistem menyimpan hasil kelola data buku
 
-**2.2.7 Admin Kelola Data Kunjungan**
+**2.2.5 Admin Kelola Data Exemplar**
 
-Use Case: Mengelola Data Kunjungan
+Use Case: Mengelola Data Exemplar
+
+Diagram:
+![enter image description here](gambar/admin%20mengelola%20data%20buku.png)  
+
+Deskripsi Singkat:
+Admin dapat mengelola data exemplar, seperti tambah, edit, dan hapus.
+Deskripsi langkah-langkah:
+1. Admin memilih menu exemplar
+2. Sistem menampilkan seluruh data exemplar
+3. Admin mengelola data exemplar dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data exemplar
+
+**2.2.6 Admin Kelola Data Pengunjung**
+
+Use Case: Mengelola Data Pengunjung
 
 Diagram:
 ![enter image description here](gambar/admin%20menglola%20data%20kunjungan.png)  
 
 Deskripsi Singkat:
-Admin dapat mengelola data kunjungan, seperti tambah, edit, dan hapus.
+Admin dapat mengelola data pengunjung, seperti tambah, edit, dan hapus.
 Deskripsi Langkah-langkah
-1. Admin memilih menu kunjungan
-2. Sistem menampilkan seluruh data kunjungan
-3. Admin mengelola data kunjungan dan mengklik tombol simpan
-4. Sistem menyimpan hasil kelola data kunjungan
+1. Admin memilih menu pengunjung
+2. Sistem menampilkan seluruh data pengunjung
+3. Admin mengelola data pengunjung dan mengklik tombol simpan
+4. Sistem menyimpan hasil kelola data pengunjung
 
 **2.2.8 Admin Melihat dan Mencetak Laporan**
 
