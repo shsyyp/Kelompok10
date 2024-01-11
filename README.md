@@ -220,7 +220,7 @@ Deskripsi langkah-langkah:
 Use Case: Mengisi Form Pengunjung
 
 Diagram:
-![enter image description here](gambar/user%20mengisi%20form%20kunjungan.png) 
+![enter image description here](gambar/user%20mengisi%20form%20pengunjung.png) 
 
 Deskripsi Singkat:
 User mengisi form pengunjung ketika datang ke perpustakaan.
