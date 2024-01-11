@@ -165,7 +165,7 @@ Deskripsi langkah-langkah:
 Use Case: Mengelola Data Exemplar
 
 Diagram:
-![enter image description here](gambar/admin%20mengelola%20data%20buku.png)  
+![enter image description here](gambar/admin%20mengelola%20data%20examplar.png)  
 
 Deskripsi Singkat:
 Admin dapat mengelola data exemplar, seperti tambah, edit, dan hapus.
