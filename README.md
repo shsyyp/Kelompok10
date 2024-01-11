@@ -55,7 +55,7 @@ Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
 
 2.1   Perspektif Produk
 ----------
-Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah sistem administrasi data yang diaplikasikan pada website. Terdapat 2 jenis, yaitu admin (staf perpustakaan) dan siswa-siswi (pengunjung). Siswa-siswi (pengunjung) dapat menginput data kunjungan dan admin (staf perpustakaan) dapat melihat data yang telah diinputkan oleh pengunjung.
+Sistem absensi Perpustakaan SMA AL-Ittihad Rumbai berbasis website adalah sebuah sistem administrasi data yang diaplikasikan pada website. Terdapat 2 jenis, yaitu admin (staf perpustakaan) dan pengunjung.pengunjung dapat menginput Form kunjungan dan admin staf perpustakaan dapat melihat dan mengelola data yang telah diinputkan oleh pengunjung.
 
 **2.1.1 Antarmuka Sistem**
 
