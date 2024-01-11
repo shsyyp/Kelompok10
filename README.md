@@ -8,8 +8,7 @@ Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi p
 
 1.2   Lingkup
 ----------
-Sistem Informasi perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis website yang kami bangun untuk mempermudah staf perpustakaan dalam mengelola absensi dan meningkatkan efesiensi dan efektifitas pengelolaan data buku yang ada di perpustakaan tersebut, serta memudahkan staf dalam melihat laporan karena sudah terhubung ke dalam database.
-
+Sistem Informasi perpustakaan SMA Al-Ittihad Rumbai merupakan aplikasi berbasis website yang kami bangun untuk mempermudah staf perpustakaan dalam mengelola absensi dan meningkatkan efesiensi dan efektifitas pengelolaan data buku yang ada di perpustakaan tersebut, serta memudahkan staff dalam penginputan data -data.
 1.3    Akronim, Singkatan, Definisi
 ----------
 | Istilah | Definisi |
