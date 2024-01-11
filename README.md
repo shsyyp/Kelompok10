@@ -37,7 +37,7 @@ Bab selanjutnya yaitu menjelaskan sistem yang di terapkan pada aplikasi. Menjela
 ----------
 Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari–hari. Seperti perpustakaan tidak bisa dipisahkan dari pembelajaran siswa dan siswi di SMA IT AL-Ittihad dalam mencari ilmu pengetahuan. Fasilitas yang disediakan perpustakaan sekolah ini, sangatlah bermanfaat bagi semua siswa dan siswi dalam studi kasus proyek kami ini menganalisis kebutuhan suatu sekolah di daerah Pekanbaru tepatnya di Rumbai Kecamatan Rumbai Pesisir. Kasus yang kami peroleh pembuatan laporan pengunjung dan pengelolaan data Absensi serta Buku di Perpustakaan Sekolah. Maka dari itu kami sebagai software engineering merancang sebuah sistem sesuai dengan kebutuhan Sekolah ini dengan menerapkan sistem Informasi pengelolaan data  berbasis website yang akan menggantikan sistem manual sebelumnya. 
 
-Dalam pembuatan sistem tersebut menggunakan pemrograman PHP dengan Sublime Text 3 dan menggunakan XAMPP untuk membuat databasenya. Penggunaan sistem absensi perpustakaan berbasis website ini diharapkan dapat mempermudah pustakawan dalam melakukan pengelolaan data di Perputakaan. Software yang kami buat ini berbasis website dimana website sebagai siswa-siswi (pengunjung) perpustakaan SMA IT AL-Ittihad Rumbai. Sistem yang kami buat di dalamnya terdapat data diri,data buku dan data kunjungan.
+Dalam pembuatan sistem tersebut menggunakan pemrograman PHP dengan Sublime Text 3 dan menggunakan XAMPP untuk membuat databasenya. Penggunaan sistem absensi perpustakaan berbasis website ini diharapkan dapat mempermudah pustakawan dalam melakukan pengelolaan data di Perputakaan. Software yang kami buat ini berbasis website dimana website (pengunjung) perpustakaan SMA IT AL-Ittihad Rumbai. Sistem yang kami buat di dalamnya terdapat form kunjungan,data buku , data kunjungan,data eksemplar,data anggota pustaka,data peminjaman dan pngembalian buku.
 
 Berikut akan kami jelaskan sistem software kami, fungsi admin yaitu :
    - kelola data anggota
@@ -255,8 +255,7 @@ BAB III Requirement Specification
 ----------
 3.1 Persyaratan Antarmuka Eksternal
 ----------
-Salah satu cara mengakses aplikasi ini yaitu dengan registrasi akun, kemudian admin maupun user login menggunakan username dan password yang telah didaftarkan ketika registrasi. Setelah berhasil login, user dapat mengisi form kunjungan, form peminjaman, form pengembalian atau melihat data buku, dan admin dapat mengelola data user, data peminjaman, data pengembalian, data buku, data kunjungan atau melihat dan mencetak laporan di sistem tersebut.
-      
+Salah satu cara mengakses aplikasi ini yaitu dengan menggunakan sistem ini pada website, kemudian admin login menggunakan username dan password Setelah login, admin  diarahkan ke dasbor yang memberikan ringkasan aktivitas dan dapat mengelola serta melihat seluruh data lalu Pengunjung dapat mengakses halaman pencarian dan kunjungan tanpa login.      
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
@@ -452,6 +451,6 @@ Jobdesk
 
 | Nama | Jobdesk |
 | ------ | ------ |
-| Rina Al-Qomar Puji Siswati | Bab 1 dan bab 2 (gambaran umum),prototype|
+| Rina Al-Qomar Puji Siswati | Bab 1 dan bab 2 ,prototype|
 | Said Fahrur Raziq | Bab 2 |
 | Shasy Wiade Putri | Bab 2, bab 3, dan prototype |
