@@ -80,7 +80,6 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 |  |  |
 |--|--|
 | ![enter image description here]() Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here]() Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
-![enter image description here](gambar/halaman%20home.jpg)
 | ![enter image description here]() Halaman ini  adalah tempat di mana pengguna yang sudah memiliki akun dapat memasukkan informasi login untuk mengakses layanan perpustakaan secara online. | ![enter image description here]() Halaman ini adalah halaman pribadi yang diberikan kepada pengguna setelah mereka berhasil login. |
 | ![enter image description here]() Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
 | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
