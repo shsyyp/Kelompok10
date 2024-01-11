@@ -130,7 +130,7 @@ Deskripsi langkah-langkah:
 Use Case: Mengelola Data Anggota
 
 Diagram :
-![enter image description here](gambar/mengelola%20data%20anggota.png)
+![enter image description here](gambar/Adminn%20mengelola%20data%20anggota.png)
 
 
 Deskripsi Singkat:
