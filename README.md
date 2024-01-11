@@ -251,26 +251,13 @@ Salah satu cara mengakses aplikasi ini yaitu dengan registrasi akun, kemudian ad
 3.2 Functional Requirement
 ----------
 Logika Struktur terdapat pada bagian 3.3.1
-      
-**3.2.1 Admin Registrasi**
 
-|  |  |
-|--|--|
-| Nama Fungsi | Registrasi |
-| Xref | Bagian 2.2.1, Admin Registrasi |
-| Trigger | Membuka website sistem informasi perpustakaan |
-| Precondition | Halaman registrasi |
-| Basic Path | 1. Admin melakukan registrasi dengan mengisi form registrasi <br> 2. Sistem melakukan validasi registrasi akun <br> 3. Jika berhasil, sistem akan mengarahkan ke halaman login <br> 4. Jika gagal, sistem akan menampilkan peringatan dan admin kembali diminta mengisi form registrasi |
-| Alternative | Tidak ada |
-| Post Condition | Admin berhasil validasi akun dan dapat melakukan login |
-| Exception Push | Validasi akun gagal |
-      
-**3.2.2 Admin Login**
+**3.2.1 Admin Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.2, Admin Login |
+| Xref | Bagian 2.2.1, Admin Login |
 | Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman login |
 | Basic Path | 1. Admin melakukan login dengan username dan password <br> 2. Sistem melakukan validasi akun <br> 3. Jika akun valid, maka sistem akan mengarahkan ke halaman dashboard <br> 4. Jika akun tidak valid, maka admin diminta kembali menginputkan username dan password |
@@ -278,17 +265,17 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Admin berhasil login dan mengakses website |
 | Exception Push | Username dan password salah |
    
-**3.2.3 Admin Mengelola Data User**
+**3.2.2 Admin Mengelola Data Anggota**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola Data User |
-| Xref | Bagian 2.2.3, Admin Mengelola Data User |
+| Nama Fungsi | Mengelola Data Anggota |
+| Xref | Bagian 2.2.2, Admin Mengelola Data Anggota |
 | Trigger | Membuka website sistem informasi perpustakaan |
 | Precondition | Halaman dashboard admin |
-| Basic Path | 1. Admin memilih data user <br> 2. Sistem menampilkan seluruh data user <br> 3. Admin mengelola data user dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data user |
+| Basic Path | 1. Admin memilih data anggota <br> 2. Sistem menampilkan seluruh data anggota <br> 3. Admin mengelola data anggota dan mengklik tombol simpan <br> 4. Sistem menyimpan hasil kelola data anggota |
 | Alternative | Tidak ada |
-| Post Condition | Admin berhasil mengelola data user |
+| Post Condition | Admin berhasil mengelola data anggota |
 | Exception Push | Tidak ada koneksi |
 
 **3.2.4 Admin Mengelola Data Peminjaman**
