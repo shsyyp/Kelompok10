@@ -79,12 +79,12 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/70647df606bb5e786af24d7d2fe295abac5702eb/gambar/prototype/landing-page.png) Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here]() Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/70647df606bb5e786af24d7d2fe295abac5702eb/gambar/halaman%20home.jpg) Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here]() Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
 | ![enter image description here]() Halaman ini  adalah tempat di mana pengguna yang sudah memiliki akun dapat memasukkan informasi login untuk mengakses layanan perpustakaan secara online. | ![enter image description here]() Halaman ini adalah halaman pribadi yang diberikan kepada pengguna setelah mereka berhasil login. |
 | ![enter image description here]() Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
 | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
 | ![enter image description here]() Halaman ini  adalah bagian yang memungkinkan admin untuk mengelola informasi pengunjung. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan admin untuk mengakses berbagai laporan dan data terkait aktivitas perpustakaan. |
- 
+
 **2.1.3 Antarmuka Perangkat Keras**
 
 ![enter image description here](gambar/perangkat%20keras.jpeg)
