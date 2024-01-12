@@ -65,25 +65,15 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 
 **2.1.2 Antarmuka Pengguna**
 
-   - **Prototype**
+   - **Tampilan Website**
 
 |  |  |
 |--|--|
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/b64e530508d788bc0cf1947da7c7e9f7179bade8/website/1.jpg) Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/regis.png) Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/login.png) Halaman ini  adalah tempat di mana pengguna yang sudah memiliki akun dapat memasukkan informasi login untuk mengakses layanan perpustakaan secara online. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/dashboard.png) Halaman ini adalah halaman pribadi yang diberikan kepada pengguna setelah mereka berhasil login. |
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/buku.png) Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/kunjungan.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/peminjaman.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/pengembalian.png) Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/b64e530508d788bc0cf1947da7c7e9f7179bade8/website/1.jpg) Keterangan | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/2.jpg) Keterangan |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/3.jpg) Keterangan | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/4.jpg) Keterangan |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/5.jpg) KEterangan | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/6.jpg) Keterangan |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/7.jpg) Keterangan | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/85260ee15c9852c0ecadf85f6b024e03c3449331/website/8.jpg) Keterangan |
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/user.png) Halaman ini  adalah bagian yang memungkinkan admin untuk mengelola informasi pengunjung. | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/440272bbf20c1f25f3fe72ff241d685b3b543726/gambar/prototype/laporan.png) Halaman ini adalah fitur yang memungkinkan admin untuk mengakses berbagai laporan dan data terkait aktivitas perpustakaan. |
-
-   - **Website**
-
-|  |  |
-|--|--|
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/70647df606bb5e786af24d7d2fe295abac5702eb/gambar/halaman%20home.jpg) Halaman ini adalah halaman awal yang dirancang khusus untuk memperkenalkan dan mengarahkan pengunjung ke sistem informasi perpustakaan yang lebih lengkap. | ![enter image description here]() Halaman ini adalah tempat di mana pengguna dapat membuat akun untuk mengakses layanan perpustakaan secara online. |
-| ![enter image description here]() Halaman ini  adalah tempat di mana pengguna yang sudah memiliki akun dapat memasukkan informasi login untuk mengakses layanan perpustakaan secara online. | ![enter image description here]() Halaman ini adalah halaman pribadi yang diberikan kepada pengguna setelah mereka berhasil login. |
-| ![enter image description here]() Halaman ini adalah bagian yang memberikan akses kepada pengguna untuk menjelajahi dan mencari koleksi buku yang tersedia dalam perpustakaan. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mencatat atau mendaftarkan kehadiran saat mengunjungi perpustakaan. |
-| ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses peminjaman buku. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan pengunjung untuk mengelola proses pengembalian buku yang di pinjam. |
-| ![enter image description here]() Halaman ini  adalah bagian yang memungkinkan admin untuk mengelola informasi pengunjung. | ![enter image description here]() Halaman ini adalah fitur yang memungkinkan admin untuk mengakses berbagai laporan dan data terkait aktivitas perpustakaan. |
 
 **2.1.3 Antarmuka Perangkat Keras**
 
