@@ -77,7 +77,7 @@ Sistem Informasi Perpustakaan SMA Al-Ittihad Rumbai berbasis website ini memilik
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/11.jpg) merupakan tampilan yang berisi data buku pustaka | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/12.jpg) mrupakan tampilan yang berisi untuk menambahkan buku pustaka jika ada buku yang ingin ditambahkan |
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/13.jpg) merupakan tampilan data exemplar pustaka | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/14.jpg) merupakan tampilan untuk menambah exemplar pustaka |
 | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/15.jpg) merupakan tampilan data pengunjung pustaka,nama yang di inputkan maka akan masuk ke tampilan ini | ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/16.jpg) merupakan tampilan data peminjaman buku |
-| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/17.jpg) merupakan tampilan data peminjaman buku |  |
+| ![enter image description here](https://github.com/shsyyp/Kelompok10/blob/1ed88ef48f8cbcac7b8516e94e5429bcc18c9cce/website/17.jpg) merupakan tampilan menambah peminjaman buku |  |
 
 
 **2.1.3 Antarmuka Perangkat Keras**
